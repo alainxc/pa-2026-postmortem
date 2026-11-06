@@ -2,7 +2,7 @@
 
 Draft for review before any pages are built. Every number below is unofficial. Counties certify in late November; the Department of State's results site still carries the banner "unofficial and for informational purposes only" and reports 8,931 of 9,065 precincts for in-person ballots (98.5 percent). Provisional ballots are essentially absent from the count so far (see data quality, below), so close margins will move.
 
-Sources: Department of State unofficial returns at electionreturns.pa.gov pulled through the tracker's client (legislative seats: the tracker's final snapshot, source time Nov 4, 10:45 am ET; governor, US House and all 2022 and 2024 comparisons: pulled Nov 5, 7:14 pm ET). The forecast is `priors_2026.json` as frozen on Oct 29. County coordinates and land area are from the Census Bureau's 2024 county gazetteer. All margins are two-party Democratic margins in percentage points unless marked.
+Sources: Department of State unofficial returns at electionreturns.pa.gov pulled through the tracker's client. Seat margins in section 1 are from the tracker's final snapshot (source time Nov 4, 10:45 am ET); the forecast scorecard, governor, US House and all 2022 and 2024 comparisons use the Nov 5, 7:14 pm ET pull, which is also what the site runs on. The forecast is `priors_2026.json` as frozen on Oct 29. County coordinates and land area are from the Census Bureau's 2024 county gazetteer. All margins are two-party Democratic margins in percentage points unless marked.
 
 A Nov 5 re-pull of the legislative races added 30,555 ballots to the statewide count, changed totals in 59 House seats, and changed no leader. HD-143's Democratic lead went from 180 to 209 votes.
 
@@ -42,9 +42,9 @@ Confidence: high on 110 or more Democratic seats, moderate on the exact 113. Pro
 
 **Pre-election forecast:** Senate, Democratic control 28.8 percent, Republican control 42.6 percent, no majority 28.6 percent, expected 24.6 Democratic seats in the 50. House, Democratic control 98.9 percent, expected 111.8 seats. Result: 26 and 113. The Senate outcome was the model's second-likeliest branch, so the model was wrong in direction but not shocked.
 
-**Seat-level accuracy over 164 contested seats:** Brier score 0.021. The favored side lost in four seats: SD-40 (Dem probability 0.40), HD-13 (0.47), HD-41 (0.62, Republican leads by 41 votes), HD-147 (0.33). The 90 percent margin intervals contained the actual margin in 152 of 164 seats (92.7 percent), so the uncertainty was sized about right.
+**Seat-level accuracy over 163 contested seats:** Brier score 0.0215. (Counts in this section are from the Nov 5 re-pull, which is what the site uses.) The favored side lost in four seats: SD-40 (Dem probability 0.40), HD-13 (0.47), HD-41 (0.62, Republican leads by 41 votes), HD-147 (0.33). The 90 percent margin intervals contained the actual margin in 153 of 163 seats (93.9 percent), so the uncertainty was sized about right.
 
-**The bias:** actual margins ran bluer than forecast by a mean of 4.8 points in the Senate (21 seats, excluding SD-46) and 2.1 points in the House (142 seats). Mean absolute error 6.2 and 6.3. The model's generic legislative environment was D +6.6; the seat results imply something closer to D +9 to +11. The governor polling average the model used (D +23.1) matched the result (D +22.4), so the miss was in how much of Shapiro's margin the model let pass through to legislative races, not in the top-line polls.
+**The bias:** actual margins ran bluer than forecast by a mean of 4.8 points in the Senate (21 seats, excluding SD-46) and 3.2 points in the House (141 seats). Mean absolute error 6.3 and 5.3. The model's generic legislative environment was D +6.6; the seat results imply something closer to D +9 to +11. The governor polling average the model used (D +23.1) matched the result (D +22.4), so the miss was in how much of Shapiro's margin the model let pass through to legislative races, not in the top-line polls.
 
 **Calibration by bin (contested seats):**
 
@@ -68,7 +68,7 @@ Democrats outran their probabilities in every competitive bin. That is what a un
 
 **Versus the 2024 presidential race, every one of the 67 counties moved toward Democrats, by a mean of 22.8 points** (two-party margin, governor 2026 minus president 2024). Range: Fulton +13.5 to Greene +30.7. Versus the 2022 governor's race, the mean swing is +6.0, range Cameron minus 1.6 to Pike +14.2.
 
-**Legislative races swung less than the top of the ticket but still a lot.** In the 92 House seats contested by both parties in 2024 and 2026, the median swing was D +15.4. In the 20 Senate seats contested in both 2022 and 2026, the median swing from 2022 was D +12.5. The all-seat House popular vote went from R +6.1 (2024) to D +13.5 (2026), but that number is distorted by which seats were uncontested; in contested seats only it went from R +6.5 (107 seats) to D +2.4 (140 seats).
+**Legislative races swung less than the top of the ticket but still a lot.** In the 92 House seats contested by both parties in 2024 and 2026, the median swing was D +15.4. In the 20 Senate seats contested in both 2022 and 2026, the median swing from 2022 was D +12.5. The all-seat House popular vote went from R +6.1 (2024) to D +13.8 (2026), but that number is distorted by which seats were uncontested; in contested seats only it went from R +6.5 (107 seats) to D +2.4 (140 seats).
 
 Confidence: high on direction and rough size; the 2026 margins will move slightly as outstanding mail and provisionals are added. If those ballots lean Democratic as mail did in 2024, the swing grows; that is an assumption, not a measurement.
 
@@ -86,7 +86,7 @@ Confidence: high on the numbers, moderate on the interpretation.
 
 There is no governor result by legislative district until precincts are certified. For now the governor's district margin is estimated as the district's 2024 presidential margin plus the governor-versus-president swing of its counties, weighted by legislative votes cast in each county piece. This is an estimate and every page using it must say so.
 
-**On that estimate, the Democratic legislative candidate ran behind Shapiro in all 22 contested Senate seats (median gap 13.6 points) and in 87 percent of the 140 contested House seats (median 13.0).** Twenty-five districts that Shapiro is estimated to have carried elected a Republican legislator, including SD-34 (Rothman) and SD-36 (Jones). Only one district went the other way: HD-72 in Cambria, where the Democrat won by 17.5 in a seat Trump carried by 32.
+**On that estimate, the Democratic legislative candidate ran behind Shapiro in all 22 contested Senate seats (median gap 13.6 points) and in 87 percent of the 140 contested House seats (median 13.0).** Twenty-six districts that Shapiro is estimated to have carried elected a Republican legislator (24 House seats plus SD-34, Rothman, and SD-36, Jones). Only one district went the other way: HD-72 in Cambria, where the Democrat won by 17.5 in a seat Trump carried by 32.
 
 Against the hard 2024 presidential numbers, which are exact at the district level: 19 Trump-2024 districts elected Democrats (SD-6, 16, 24, 40 and 15 House seats) and zero Harris-2024 districts elected Republicans. Legislative margins ran a median 11 to 12 points bluer than the 2024 presidential vote in the same district.
 
@@ -102,7 +102,7 @@ Confidence: high on the direction and on the presidential comparison, moderate o
 | President 2024 | 27.7 | +31.0 | minus 14.7 | 36.9 / 18.8 |
 | Governor 2026 | 23.0 | +61.4 | +10.7 | 30.4 / 11.5 |
 | State House, all seats 2024 | 27.6 | +21.0 | minus 16.8 | 35.5 / 20.5 |
-| State House, all seats 2026 | 22.8 | +49.4 | +2.9 | 30.0 / 13.3 |
+| State House, all seats 2026 | 23.0 | +49.8 | +3.1 | 30.3 / 13.4 |
 
 The mail share and the mail margin snapped back to their 2022 pattern. Republicans cast 18.8 percent of their presidential votes by mail in 2024 and 11.5 percent of their governor votes in 2026; the county median fell from 16.6 to 9.3 percent. Democrats also used mail a little less (36.9 to 30.4). For the first time in these three elections Democrats won the election-day vote statewide, by 10.7 points.
 

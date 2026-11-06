@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The swing map was not east versus west</title>
+<meta name="description" content="County-by-county swing from the 2024 presidential race to Pennsylvania's 2026 governor's race. Every county moved toward Democrats; the biggest moves were in the counties where Trump surged in 2024.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html" class="active">Swing map</a><a href="split.html">Split tickets</a><a href="mail.html">Mail vs in person</a><a href="turnout.html">Turnout</a><a href="demographics.html">Demographics</a><a href="methods.html">Methods &amp; data</a></nav></header>
+<main class="wide">
+  <h1>The swing was not east versus west. It was the 2024 Trump-surge counties snapping back.</h1>
+  <p class="dek">Every one of Pennsylvania's 67 counties moved toward Democrats between the 2024 presidential race and the 2026 governor's race, by a mean of <span id="mean24">22.8</span> points. The biggest moves were in the old industrial Democratic counties of the anthracite region and the Mon Valley, in both corners of the state.</p>
+  <div class="byline" id="vintage"></div>
+  <div class="banner" id="banner"></div>
+  <p class="note">Geography: <b>county data now, precinct data after certification.</b> The Department of State publishes precinct-level results only after counties certify; this page will be rebuilt on precincts then.</p>
+
+  <p>The two-party margin in the governor's race (Shapiro over Garrity) is compared with the 2024 presidential margin (Harris versus Trump) in the same county. Swing is the difference in points; positive means movement toward Democrats. The 2022 governor's race (Shapiro over Mastriano) is the other reference point.</p>
+
+  <figure>
+    <p class="headline" id="map-headline">Every county moved toward Democrats against 2024, from <span id="minc"></span> to <span id="maxc"></span></p>
+    <div class="toggle" id="map-toggle"><button data-k="s24" class="on">Swing vs 2024 president</button><button data-k="s22">Swing vs 2022 governor</button><button data-k="m26">2026 governor margin</button></div>
+    <div class="chart" id="map"></div>
+    <div class="legend" id="map-legend"></div>
+    <figcaption>Unofficial 2026 county returns and official 2024 and 2022 returns from the Pennsylvania Department of State. Margins are two-party (D minus R as a share of D plus R). County shapes: Census Bureau 2024 cartographic boundary file. Hover or tap a county for its numbers.</figcaption>
+  </figure>
+
+  <h2>No gradient from east to west</h2>
+  <p>If the shift had been a regional story, the swing would track longitude. It does not. Across the 67 counties the correlation between swing against 2024 and longitude is 0.04, and the vote-weighted swing is +23.6 points both east and west of the Susquehanna. Against 2022 there is an east tilt (correlation 0.65): counties east of the river moved <span id="g-east22">7.5</span> points toward Democrats and those to the west <span id="g-west22">4.8</span>. By region, the vote-weighted swing against 2024 was:</p>
+  <div class="tablewrap"><table id="groups"><thead><tr><th>Region</th><th class="num">Swing vs 2024</th><th class="num">Swing vs 2022</th><th class="num">2026 governor margin</th><th class="num hide-sm">2024 president margin</th></tr></thead><tbody></tbody></table></div>
+  <p class="small">Regions are county groupings chosen for this site and listed on the <a href="methods.html">methods page</a>. Swings are weighted by 2026 votes.</p>
+
+  <h2>Where the ground moved most, and least</h2>
+  <p>The counties that moved most against 2024 are the working-class counties that swung hardest to Trump in 2024: Greene, Lackawanna, Schuylkill, Carbon, Luzerne, Washington, Beaver, Fayette, Lawrence and Cambria, along with the Lehigh Valley. The smallest moves are in the rural north-central tier, where Trump's 2024 margins were already near their ceiling.</p>
+  <div class="grid two">
+    <figure>
+      <p class="headline">Ten biggest moves toward Democrats, <span class="bars-ref">vs 2024 president</span></p>
+      <div class="chart" id="bars-top"></div>
+    </figure>
+    <figure>
+      <p class="headline">Ten smallest moves, <span class="bars-ref">vs 2024 president</span></p>
+      <div class="chart" id="bars-bottom"></div>
+      <figcaption>Swing in points of two-party margin, governor 2026 minus the reference race. Use the toggle above the map to switch the reference to the 2022 governor's race, where a few counties moved toward Republicans.</figcaption>
+    </figure>
+  </div>
+
+  <h2>A hypothesis, not a finding</h2>
+  <p>The simplest reading is that the voters who gave Trump his 2024 surge in the anthracite and Mon Valley counties did not show up the same way for a midterm with Shapiro at the top of the ticket, through some mix of staying home and voting for Shapiro. County returns cannot separate those two: a county where Trump's 2024 voters stayed home and a county where they switched look the same on this map. Two things argue for turnout doing much of the work. Turnout fell most where Trump ran best (see <a href="turnout.html">the turnout page</a>), and against 2022, a midterm with no Trump on the ballot, the same southwestern counties moved only <span id="sw22">3.7</span> points while the northeast moved <span id="ne22">9.1</span>. Precinct results, once certified, can narrow this down; the demographics page will then be rebuilt on precincts.</p>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/map.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mail vs in person: the 2024 Republican mail vote went away</title>
+<meta name="description" content="How Pennsylvania's 2026 vote split between mail and election-day ballots, by party and by county, compared with the 2024 presidential and 2022 governor's races. Unofficial county data.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html">Swing map</a><a href="split.html">Split tickets</a><a href="mail.html" class="active">Mail vs in person</a><a href="turnout.html">Turnout</a><a href="demographics.html">Demographics</a><a href="methods.html">Methods &amp; data</a></nav></header>
+<main>
+  <h1>The Republican mail vote of 2024 went away</h1>
+  <p class="dek">Republicans cast <span id="r24"></span> of their presidential votes by mail in 2024. In the 2026 governor's race they cast <span id="r26"></span>, back near the 2022 level of <span id="r22"></span>. Democrats also used mail less, and for the first time in these three elections they won the election-day vote statewide.</p>
+  <div class="byline" id="vintage"></div>
+  <div class="banner" id="banner"></div>
+
+  <p>Pennsylvania reports every candidate's votes in three buckets: election day, mail-in and absentee, and provisional. That makes it possible to ask not just who won but how each party's voters chose to vote. In 2024 the Republican Party ran an explicit campaign to get its voters to return mail ballots, and it showed: <span id="r24b"></span> of Trump's Pennsylvania votes came by mail, up from <span id="r22b"></span> of Mastriano's in 2022. In 2026 that share fell to <span id="r26b"></span> of Garrity's vote. The county median fell from <span id="rmed24"></span> to <span id="rmed26"></span>.</p>
+
+  <figure>
+    <p class="headline">Republicans' mail use fell back to 2022 levels. Democrats' slipped too.</p>
+    <div class="chart" id="slope"></div>
+    <figcaption>Share of each party's own votes cast by mail (mail-in plus absentee), statewide. Governor and president from county returns; State House from the sum of all 203 district contests, including uncontested seats. Source: Pennsylvania Department of State unofficial returns (2026) and certified returns (2022, 2024). County data now; precinct data after certification.</figcaption>
+  </figure>
+
+  <p>Mail ballots were <span id="mshare26"></span> of the two-party vote for governor in 2026, almost exactly the 2022 share of <span id="mshare22"></span> and well below the <span id="mshare24"></span> of 2024. The mail electorate was also much more Democratic again: Shapiro won mail voters by <span id="mm26"></span> points, against Harris's <span id="mm24"></span> in 2024 and Shapiro's own <span id="mm22"></span> in 2022. The bigger change is on election day. Trump won in-person voters by <span id="em24"></span> points in 2024 and Mastriano by <span id="em22"></span> in 2022. Shapiro won them by <span id="em26"></span>.</p>
+
+  <div class="tablewrap"><table id="statewide"><thead><tr><th>Race</th><th class="num">Mail share of two-party vote</th><th class="num">Dem margin, mail voters</th><th class="num">Dem margin, election day</th><th class="num">Dem votes by mail</th><th class="num">Rep votes by mail</th></tr></thead><tbody></tbody></table></div>
+  <p class="small">Mail share and margins use Democratic and Republican votes only. "Votes by mail" is the share of that party's own vote cast by mail. House rows sum all 203 contests. 2022 and 2024 figures are certified; 2026 figures are unofficial.</p>
+
+  <h2>Every county moved the same way</h2>
+  <p>The shift was not concentrated anywhere. In all 67 counties the Republican mail share of the Republican vote was lower in 2026 than in 2024, and in most it was roughly half. Switch the chart to the Democratic margin among mail voters or among election-day voters to see the same uniformity: the dots sit well above the diagonal almost everywhere, which is what a statewide swing looks like at county resolution.</p>
+
+  <div class="toggle" id="scatter-toggle"><button data-k="rmail" class="on">Rep mail share</button><button data-k="mail">Dem margin, mail</button><button data-k="ed">Dem margin, election day</button></div>
+  <figure>
+    <p class="headline" id="scatter-head">In every county, Republicans used mail less than in 2024</p>
+    <div class="chart" id="scatter"></div>
+    <figcaption id="scatter-cap">Each dot is a county, sized by 2024 presidential votes. The diagonal is "no change from 2024". Labels mark the counties furthest from it. Source: Department of State county returns by vote method, 2024 president (certified) and 2026 governor (unofficial).</figcaption>
+  </figure>
+
+  <h2>Read this with three caveats</h2>
+  <p><b>Philadelphia's mail count may not be finished.</b> Mail ballots are <span id="phl26"></span> of Philadelphia's governor vote so far, against <span id="phl22"></span> in 2022 and <span id="phl24"></span> in 2024. Allegheny and Chester show smaller dips of the same kind. If late mail is still being added in the city, the statewide mail share and the Democratic mail margin will both rise.</p>
+  <p><b>Provisional ballots are essentially missing.</b> They are <span id="prov26"></span> of the 2026 count so far and were <span id="prov24"></span> of the 2024 vote; <span id="provzero"></span> of 67 counties report zero. Provisionals are adjudicated after election day and come in late.</p>
+  <p><b>The state's "precincts reporting" figure covers in-person ballots only.</b> There is no public statewide measure of how much mail remains to be counted. So the finding on this page is stated as a hypothesis: Republican voters who used mail in 2024 mostly did not in 2026, either because they voted in person or because they did not vote. The <a href="turnout.html">turnout page</a> shows the second possibility is a big part of it. Re-check this page after certification.</p>
+  <p class="note">County data now; precinct data after certification. The Department of State publishes precinct-level returns by method after counties certify, and this page will be rebuilt on them.</p>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/mail.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PA 2026: What happened</title>
+<meta name="description" content="Post-election analysis of Pennsylvania's November 3, 2026 general election: the state Senate and House, the governor's race and the congressional map, from unofficial county returns.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html" class="active">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html">Swing map</a><a href="split.html">Split tickets</a><a href="mail.html">Mail vs in person</a><a href="turnout.html">Turnout</a><a href="demographics.html">Demographics</a><a href="methods.html">Methods &amp; data</a></nav></header>
+<main>
+  <h1>A 22-point governor landslide bought Democrats a 3-seat Senate gain and a 10-seat House gain</h1>
+  <p class="dek">Pennsylvania voted on November 3, 2026. Democrats took the state Senate, widened their House majority and flipped four congressional seats. But the legislature moved far less than the top of the ticket, because Republican legislators held on to about 13 points of ticket-splitting.</p>
+  <div class="byline" id="vintage"></div>
+  <div class="banner" id="banner"></div>
+
+  <div class="stats">
+    <div><div class="v dem" id="st-senate">…</div><div class="l">State Senate, from <span id="st-senate-old">…</span>. Democrats won <span id="st-senate-won">…</span> of 25 seats up.</div></div>
+    <div><div class="v dem" id="st-house">…</div><div class="l">State House leaders, from <span id="st-house-old">…</span>. <span id="st-house-close">…</span> seats are inside 220 votes.</div></div>
+    <div><div class="v dem" id="st-gov">…</div><div class="l">Governor, two-party margin. Shapiro <span id="st-gov-pct">…</span> of all votes.</div></div>
+    <div><div class="v dem" id="st-ush">…</div><div class="l">US House, from <span id="st-ush-old">…</span>. Four Republican incumbents lost.</div></div>
+  </div>
+
+  <figure>
+    <p class="headline">Four Senate seats flipped to Democrats, one flipped back, and nothing else moved</p>
+    <div class="chart" id="senate-strip"></div>
+    <figcaption>Two-party Democratic margin in each of the 25 Senate seats on the 2026 ballot, sorted. Filled dots are the 2026 result; hollow dots are the same seat's last result (2022). Uncontested seats are shown at the edge. SD-46 had no Democrat; the margin shown is the independent versus the Republican. Unofficial returns, Pennsylvania Department of State.</figcaption>
+  </figure>
+
+  <h2>Five things the returns show</h2>
+
+  <p><b>1. Ticket-splitting is the story.</b> Josh Shapiro won by <span id="p-gov"></span> points two-party. In the contested legislative races, the Democratic candidate ran behind Shapiro's estimated margin in the same district by a median of about <span id="p-gap"></span> points, and behind him in every contested Senate seat. Nineteen districts Trump carried in 2024 elected Democrats; no district Harris carried elected a Republican. That asymmetry, not the size of the wave, is why the chambers moved only a few seats. <a href="split.html">Legislators vs the top of the ticket.</a></p>
+
+  <p><b>2. The forecast had the right map and the wrong environment.</b> The pre-election model gave Democrats a <span id="p-psen"></span> chance of Senate control and expected <span id="p-sen-mean"></span> Democratic seats; they got 26. The four Senate seats that flipped were exactly its four tossups, and the one Democratic loss was the one it leaned Republican. But contested seats ran a mean of <span id="p-err-sen"></span> points bluer than forecast in the Senate and <span id="p-err-house"></span> in the House. <a href="scorecard.html">The scorecard.</a></p>
+
+  <p><b>3. Every county swung toward Democrats, by a mean of <span id="p-swing"></span> points against 2024.</b> The pattern is not east against west. The biggest moves were in the counties where Trump surged in 2024, in the anthracite northeast and the Mon Valley alike, and the smallest were in the rural northern tier. <a href="map.html">The swing map.</a></p>
+
+  <p><b>4. The Republican mail vote of 2024 did not come back.</b> Republicans cast <span id="p-rmail24"></span> of their presidential votes by mail in 2024 and <span id="p-rmail26"></span> of their governor votes in 2026. Democrats won the election-day vote statewide, by <span id="p-edm"></span> points, for the first time in the three statewide elections compared here. <a href="mail.html">Mail vs in person.</a></p>
+
+  <p><b>5. Turnout fell most where Trump ran best.</b> About <span id="p-ballots"></span> ballots were counted, <span id="p-to24"></span> percent of the 2024 total. The Philadelphia collar kept three quarters of its 2024 vote; the southwest outside Allegheny and the rural T kept about two thirds. <a href="turnout.html">Turnout.</a></p>
+
+  <p class="note">These are hypotheses with county-level evidence behind them. Precinct results, published after certification, will let the demographics and split-ticket pages test them properly. Until then every page says which level of data it shows.</p>
+
+  <h2>The pages</h2>
+  <div class="cards">
+    <a href="scorecard.html"><b>Forecast scorecard</b><span>Forecast vs actual for every seat, calibration, the biggest misses, and the odds hour by hour.</span></a>
+    <a href="map.html"><b>Map of the shift</b><span>Swing from the 2024 presidential race to 2026 by county, and the ten biggest moves each way.</span></a>
+    <a href="split.html"><b>Legislators vs the top of the ticket</b><span>Each legislative margin against the governor's margin in the same district, ranked by split-ticket distance.</span></a>
+    <a href="mail.html"><b>Mail and election day</b><span>Party share by voting method by county, and the change from 2024.</span></a>
+    <a href="turnout.html"><b>Turnout</b><span>2026 against 2024 and 2022 by county and by type of district.</span></a>
+    <a href="demographics.html"><b>Demographics</b><span>Swing against education, income, density, age, immigration and race share, with fitted lines and labeled outliers.</span></a>
+    <a href="methods.html"><b>Methods and data</b><span>Every source linked, every definition, what is unofficial, and how to refresh when precincts are certified.</span></a>
+  </div>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Forecast from the pre-election model. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/index.js"></script>
+</body>
+</html>

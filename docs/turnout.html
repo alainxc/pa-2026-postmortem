@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turnout: 5 million ballots, and the drop was steepest where Trump ran best</title>
+<meta name="description" content="Pennsylvania 2026 turnout by county and region compared with the 2024 presidential and 2022 governor's elections. Unofficial county data.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html">Swing map</a><a href="split.html">Split tickets</a><a href="mail.html">Mail vs in person</a><a href="turnout.html" class="active">Turnout</a><a href="demographics.html">Demographics</a><a href="methods.html">Methods &amp; data</a></nav></header>
+<main>
+  <h1>Five million ballots: 71 percent of 2024, 93 percent of 2022, and the drop was steepest where Trump ran best</h1>
+  <p class="dek">Turnout fell everywhere from the presidential year, as it always does in a midterm. But it fell least in the Philadelphia suburbs and the Harrisburg corridor and most in the rural T and the southwest, so the electorate that showed up was bluer than the one that elected Trump.</p>
+  <div class="byline" id="vintage"></div>
+  <div class="banner" id="banner"></div>
+
+  <div class="stats">
+    <div><div class="v" id="b26"></div><div class="l">ballots counted so far, 2026 (<span id="t26"></span> of <span id="reg26"></span> registered)</div></div>
+    <div><div class="v" id="b24"></div><div class="l">ballots, 2024 president (<span id="t24"></span> of registered)</div></div>
+    <div><div class="v" id="v22"></div><div class="l">votes for governor, 2022</div></div>
+  </div>
+
+  <p>Measured by votes for governor, 2026 turnout was <span id="ret24"></span> of the 2024 presidential vote and <span id="ret22"></span> of the 2022 governor's vote. Those two ratios tell different stories. Against 2024 the state lost nearly three in ten voters. Against the last midterm it lost about one in fourteen, and in several eastern counties it lost none at all.</p>
+
+  <p>Where the voters went missing matters more than how many did. The chart below plots each county's 2026 vote as a share of its 2024 vote against how that county voted for president in 2024. The relationship is clear: the redder the county, the larger the share of its 2024 electorate that stayed home. The correlation across the 67 counties is <span id="corr24"></span>. Fulton, Fayette and Greene kept barely six in ten of their 2024 voters; Cumberland, Dauphin and Bucks kept three in four.</p>
+
+  <div class="toggle" id="ret-toggle"><button data-k="24" class="on">vs 2024 president</button><button data-k="22">vs 2022 governor</button></div>
+  <figure>
+    <p class="headline" id="ret-head">The redder the county, the more of its 2024 electorate stayed home</p>
+    <div class="chart" id="ret"></div>
+    <figcaption id="ret-cap">Each dot is a county, sized by 2024 presidential votes. Vertical axis: votes cast for governor in 2026 as a percentage of votes cast for president in 2024 in the same county. Horizontal axis: 2024 two-party presidential margin. Dashed line is the least-squares fit. Source: Department of State county returns; 2026 unofficial. County data now; precinct data after certification.</figcaption>
+  </figure>
+
+  <p>Switch the chart to the 2022 comparison and the pattern is stronger still (correlation <span id="corr22"></span>). Monroe, Lehigh and Dauphin matched or beat their 2022 governor vote; Philadelphia and Northampton came within two points of it. Greene, Fayette, Somerset, Jefferson and Westmoreland sit at 82 to 86 percent. Allegheny is the odd one out among Democratic counties, at <span id="alleg22"></span> of its 2022 vote.</p>
+
+  <h2>The suburbs grew as a share of the electorate; the rural T and the southwest shrank</h2>
+  <p>Grouping the counties into regions makes the same point with fewer dots. The four collar counties kept <span id="collar24"></span> of their 2024 vote and rose from <span id="collar_s24"></span> to <span id="collar_s26"></span> of the statewide total. The rural T kept <span id="rural24"></span> and fell from <span id="rural_s24"></span> to <span id="rural_s26"></span>. The southwest outside Allegheny kept <span id="sw24"></span>. Philadelphia kept <span id="phl24"></span> of its 2024 vote, below the state average, and its share of the electorate slipped from <span id="phl_s24"></span> to <span id="phl_s26"></span>.</p>
+
+  <figure>
+    <p class="headline">Collar counties kept the most of their 2024 vote; the rural T and the southwest kept the least</p>
+    <div class="chart" id="groups"></div>
+    <figcaption>Votes for governor in 2026 as a percentage of 2024 presidential votes, by county group. The regions are this site's own groupings of the 67 counties, listed on the <a href="methods.html">methods page</a>. Source: Department of State county returns; 2026 unofficial.</figcaption>
+  </figure>
+
+  <div class="tablewrap"><table id="grouptable"><thead><tr><th>Region</th><th class="num">2026 votes</th><th class="num">% of 2024</th><th class="num">% of 2022</th><th class="num">Share of state, 2024</th><th class="num">Share of state, 2026</th><th class="num hide-sm">Gov 2026 margin</th></tr></thead><tbody></tbody></table></div>
+
+  <h2>By type of legislative district</h2>
+  <p>The forecast grouped the 203 House districts into seven regions. Summing the votes cast in every House contest by region gives a second view of the same pattern, with one caveat: in a seat with only one candidate many voters skip the race, so House totals understate turnout in uncontested districts, and the mix of uncontested seats changed between elections.</p>
+  <div class="tablewrap"><table id="regiontable"><thead><tr><th>House district region</th><th class="num">Seats</th><th class="num">2026 House votes</th><th class="num">% of 2024</th><th class="num">% of 2022</th></tr></thead><tbody></tbody></table></div>
+  <p class="small">Votes cast in all House contests in the region, including uncontested seats. Source: Department of State returns for the 2022, 2024 (certified) and 2026 (unofficial) State House elections.</p>
+
+  <h2>What this can and cannot say</h2>
+  <p>County totals cannot tell apart two explanations for the same 22-point swing: 2024 Trump voters who stayed home and 2024 Trump voters who voted for Shapiro. This page shows the first was large. The <a href="map.html">swing map</a> shows the biggest swings were in the same working-class counties where turnout fell most, which fits the stay-at-home story, but it does not rule out persuasion. Precinct data will narrow it; a voter file would settle it. Treat the "it was turnout" reading as a hypothesis with evidence, not a result.</p>
+  <p class="note">All 2026 counts are unofficial and will rise. Mail ballots are still being added in some counties, and provisional ballots, about one percent of the 2024 vote, are essentially absent so far. The turnout ratios on this page are therefore floors.</p>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/turnout.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demographics of the swing</title>
+<meta name="description" content="How Pennsylvania's 2026 county swing and turnout relate to education, income, age, race and ethnicity, immigration background and density. County data now, precincts after certification.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+.panels{display:grid;gap:14px;grid-template-columns:1fr;margin:12px 0 24px}
+@media(min-width:700px){.panels{grid-template-columns:1fr 1fr}}
+.panels figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px 8px}
+.panels figure .headline{font-size:14px;margin:0 0 2px}
+.panels figcaption{margin-top:4px;font-size:12px}
+</style>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html">Swing map</a><a href="split.html">Split tickets</a><a href="mail.html">Mail vs in person</a><a href="turnout.html">Turnout</a><a href="demographics.html" class="active">Demographics</a><a href="methods.html">Methods &amp; data</a></nav></header>
+<main class="wide">
+<h1>Against 2024 the swing was nearly the same in every kind of county. Against 2022 it was largest where the most Latino, foreign-born and high-income voters live.</h1>
+<p class="dek">Education and density still sort Pennsylvania's counties by how they vote. They barely sort them by how much they moved since 2024. The clearest demographic pattern is in turnout: the most educated counties kept the largest share of their 2024 electorate.</p>
+<div class="byline" id="vintage"></div>
+<div class="banner" id="banner"></div>
+
+<p class="note">Geography: <b>county</b> (67 counties). Block-group census tables and a 2020 block to precinct crosswalk are already prepared, and these charts switch to precincts once the Department of State publishes certified precinct returns. County points are sized by 2024 presidential votes; the fitted line is weighted the same way.</p>
+
+<p>Every county in Pennsylvania voted more Democratic for governor in 2026 than it did for president in 2024, and the size of that move hardly depends on what kind of county it is. Across the 67 counties the swing correlates only weakly with the share of adults holding a bachelor's degree (r = <span id="r-swing24-ba">+0.26</span> unweighted, close to zero when counties are weighted by votes), with median household income, with the Hispanic share of residents or with the foreign-born share. The one moderate relationship, with population density (r = <span id="r-swing24-dens">+0.43</span>), reverses sign once Philadelphia and the large suburban counties are weighted by their size. Read plainly: this swing did not come from one demographic slice of the state. It looks like a statewide tide plus a change in who turned out.</p>
+
+<p>Measured against the 2022 governor's race, which is the fairer midterm-to-midterm comparison, the picture has more shape. The counties that moved furthest toward Democrats since 2022 are those with the largest Hispanic populations (r = <span id="r-swing22-hisp">+0.52</span>, weighted +0.53), the largest foreign-born populations (+0.49) and the highest incomes (+0.45). The counties that moved least are the whitest (minus 0.38) and oldest (minus 0.32). The Lehigh Valley, Berks, Monroe and Pike, all with growing Latino populations, sit at the top of the 2022 swing list.</p>
+
+<figure>
+<p class="headline">The outcome you choose is on the vertical axis; each panel tries a different county characteristic on the horizontal axis.</p>
+<div class="toggle" id="outcome" role="tablist">
+<button data-k="swing24" class="on">Swing vs 2024 president</button>
+<button data-k="swing22">Swing vs 2022 governor</button>
+<button data-k="ret24">Share of 2024 vote retained</button>
+<button data-k="gov26">2026 governor margin</button>
+</div>
+<div class="legend"><span><i style="background:var(--purple)"></i>County (area = 2024 votes)</span><span><i class="sq" style="background:var(--purple);height:2px"></i>Vote-weighted fit</span><span>r = unweighted correlation, r<sub>w</sub> = weighted by 2024 votes</span></div>
+</figure>
+<div class="panels" id="panels"></div>
+<p class="small" id="panel-note"></p>
+
+<h2>What the turnout panels show</h2>
+<p>Switch the outcome to the share of the 2024 vote retained and the demographic pattern becomes strong. Counties with more college graduates kept more of their 2024 electorate (r = <span id="r-ret24-ba">+0.61</span>, and +0.68 weighted), as did higher-income counties (+0.60, weighted +0.78) and counties with more foreign-born residents (+0.62). The whitest counties lost the most (minus 0.47). Against 2022 the same ordering is even sharper: foreign-born share correlates +0.85 with how much of the 2022 vote came back, Hispanic share +0.74, and the share of adults over 65 minus 0.52.</p>
+<p>The 2026 governor margin itself still lines up with the familiar divides: r = <span id="r-gov26-ba">+0.81</span> with the bachelor's-degree share and +0.88 with log density. Those relationships did not change in 2026. What changed is which counties showed up.</p>
+
+<h2>Hypotheses, not findings</h2>
+<p>These are correlations across 67 counties. A county where many residents are Latino moving toward Democrats does not establish that Latino voters moved; the same county also has younger residents, more renters and a different mix of towns. That is the ecological fallacy, and county data cannot escape it. With that said, the patterns suggest three hypotheses that precinct results can test:</p>
+<ul>
+<li><b>Latino-heavy counties returned toward Democrats after 2024.</b> Lehigh, Northampton, Berks, Monroe and Pike show the largest moves against 2022 and above-average moves against 2024. Precinct returns in Allentown, Reading, Bethlehem and Hazleton would show whether the shift is inside the Latino neighborhoods or in the suburbs around them.</li>
+<li><b>Older, whiter counties moved least and turned out least.</b> The rural north-central tier (Fulton, Potter, Tioga, Bradford, McKean) has the smallest swings and some of the weakest retention. A guess: the voters who turned out for the first time or returned in 2024 did not come back for a midterm.</li>
+<li><b>The education gradient is a turnout story in 2026, not a persuasion story.</b> The bachelor's-degree share predicts retention far better than it predicts swing. Precinct data, which varies far more in education than counties do, would tell whether high-education precincts actually swung more or simply voted at higher rates.</li>
+</ul>
+
+<h2>What this cannot show</h2>
+<ul>
+<li><b>Gender.</b> The share of women barely varies from county to county, so there is no aggregate signal to correlate. A gender gap can only be measured with an exit poll or a survey such as AP VoteCast, or with the state's voter file, which records sex and whether each voter cast a ballot. The Department of State sells that file and restricts its use; it was not used here.</li>
+<li><b>Turnout by age among individuals.</b> Same limitation. The age shares here describe residents, not voters.</li>
+<li><b>Immigration background beyond two measures.</b> The census shares used are foreign-born and naturalized citizens. Country of origin, generation and language are published only for larger geographies or with wide margins of error and are not used.</li>
+<li><b>Anything about individuals.</b> Every relationship on this page is between places, not people.</li>
+</ul>
+<p class="small">Census figures: American Community Survey 2020-2024 five-year estimates, tables B01003, B19013, B15003, B03002, B01001 and B05002, county level. Shares are of the relevant universe (adults 25 and over for education, all residents for race, ethnicity and nativity, adults 18 and over for the 65-plus share). Vote figures: Department of State unofficial returns; the 2024 and 2022 comparison races are the state's certified county totals.</p>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Census figures from the American Community Survey 2020-2024 five-year estimates. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/demographics.js"></script>
+</body>
+</html>

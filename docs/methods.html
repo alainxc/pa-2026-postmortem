@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methods and data</title>
+<meta name="description" content="Every source, every definition, what is unofficial and how to refresh the data behind this analysis of Pennsylvania's November 3, 2026 general election.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html">Swing map</a><a href="split.html">Split tickets</a><a href="mail.html">Mail vs in person</a><a href="turnout.html">Turnout</a><a href="demographics.html">Demographics</a><a href="methods.html" class="active">Methods &amp; data</a></nav></header>
+<main class="methods">
+<h1>Methods and data</h1>
+<p class="dek">Where every number comes from, what each one means, and what will change when counties certify.</p>
+<div class="byline" id="vintage"></div>
+<div class="banner" id="banner"></div>
+
+<h2>What this site is</h2>
+<p>A post-election analysis of Pennsylvania's November 3, 2026 general election, focused on the state legislature (25 Senate seats and 203 House seats) with the governor's race and the 17 congressional races as context. Every 2026 figure is an unofficial county tally published by the Pennsylvania Department of State. Nothing is modeled, smoothed or imputed: where the state has not published a number, the site says so rather than filling it in.</p>
+<p>The pages run on county-level returns today. The Department of State publishes precinct-level returns only after certification. When those files appear, the data scripts can rebuild every page on precincts, and each page carries a visible note saying which level it shows.</p>
+
+<h2>Data sources</h2>
+<ul id="sources"></ul>
+<ul>
+<li><b>Department of State unofficial returns API.</b> electionreturns.pa.gov has no documented API. The election-night tracker recovered the JSON endpoints from the site's own scripts and verified them before election day. This site reuses that client, read-only, to pull county-by-method (election day, mail, provisional) returns for every contest in 2026 and for the 2022 and 2024 comparison races. The 2022 and 2024 pulls are marked official by the state and their county sums match the certified statewide totals to within a few hundred votes.</li>
+<li><b>The tracker's git history</b> as the archive of how the count unfolded: one commit every three minutes from poll close on November 3 to the morning of November 4, about 280 snapshots. The chamber-odds timelines on the scorecard come from that archive.</li>
+<li><b>2024 precinct returns and 2022 Legislative Reapportionment Commission block-equivalency files</b>, used to compute each legislative district's 2024 presidential and 2022 governor margins on the current (2022) district lines. These are the baselines the forecast used and the exact district-level comparisons on the split-ticket page.</li>
+<li><b>US Census Bureau.</b> 2024 Gazetteer (county centroids and land area), 2024 cartographic boundary files (the county map), the 2020 block assignment file for voting districts (the block to precinct crosswalk for the precinct phase), and the American Community Survey 2020-2024 five-year table-based summary file: tables B01003 (population), B19013 (median household income), B15003 (educational attainment), B03002 (Hispanic origin by race), B01001 (sex by age) and B05002 (place of birth). County and block-group rows were extracted; place of birth is published only down to the tract.</li>
+</ul>
+
+<h2>Data vintage</h2>
+<dl id="vintage-list"></dl>
+<p>Provisional ballots are essentially absent from the 2026 count so far: 63 of 67 counties report zero. In 2024 provisional ballots were about 1 percent of all ballots, so tens of thousands of votes remain to be added statewide, and the three House seats decided by fewer than 220 votes should be read as unsettled. The state's precinct counter covers in-person ballots only, so there is no direct measure of how much mail remains to be counted.</p>
+
+<h2>Definitions</h2>
+<dl id="definitions"></dl>
+<dl>
+<dt>Estimated 2026 governor margin by district</dt>
+<dd>Until precinct results exist there is no governor result by legislative district. The estimate takes the district's exact 2024 presidential margin (from precinct returns on 2022 lines) and adds the governor-minus-president swing of each county the district touches, weighted by 2026 legislative votes cast in that county piece. It assumes the county's swing was uniform across the district's part of the county, which is wrong at the margin. Every page that uses it says "estimated".</dd>
+<dt>Retention</dt>
+<dd>Total votes cast in the 2026 governor's race as a percentage of total votes cast in the 2024 presidential race (or the 2022 governor's race) in the same county.</dd>
+<dt>Forecast error</dt>
+<dd>Actual two-party margin minus the forecast's mean margin, in points. Positive means the Democratic side did better than forecast.</dd>
+<dt>County groups</dt>
+<dd id="groups"></dd>
+</dl>
+
+<h2>What is unofficial and when it changes</h2>
+<p>Everything dated 2026. Counties canvass and certify their results in the weeks after the election, and the Department of State then certifies statewide. Until then the state labels every figure "unofficial and for informational purposes only" and this site does the same. Expect three kinds of change: provisional ballots added, late-arriving and cured mail ballots added, and corrections to county uploads. Seats decided by hundreds of votes can change hands; swings and turnout ratios will move by fractions of a point. The site's data files record the time of the state's last update so a reader can tell which count a page reflects.</p>
+
+<h2>Known issues</h2>
+<ul>
+<li><b>SD-46</b> had no Democratic candidate; the independent Jodi Borello ran against Republican Camera Bartolotta. The forecast treated the independent as the Democratic side, and the seat pages follow that treatment and say so. SD-46 is excluded from the Senate forecast error statistics.</li>
+<li><b>HD-2</b>: Bob Merski, a Democratic incumbent, won both party nominations and is listed by the state as "D/R". He is counted as a Democratic hold.</li>
+<li><b>Montgomery County</b> shows 311 of 428 precincts reporting in-person ballots while its vote totals look complete (about three-quarters of its 2024 presidential vote, in line with neighboring counties). The flag is likely a reporting artifact; the totals are used as published.</li>
+<li><b>Philadelphia's mail share</b> of its 2026 vote (about 21 percent) is below its 2022 (26 percent) and 2024 (27 percent) shares, which may mean the city's mail count was not finished when the data was pulled. Findings about mail voting are flagged accordingly.</li>
+<li><b>Two snapshots.</b> Legislative seat numbers come from a pull on the evening of November 5. The tracker's final snapshot (November 4, 10:45 am) differed by about 30,000 ballots statewide and changed no leader; the only close-seat change was HD-143's Democratic lead growing from 180 to 209 votes.</li>
+<li><b>Precinct flags</b> below 100 percent for in-person reporting are listed in the data vintage section above.</li>
+</ul>
+
+<h2>How the forecast is scored</h2>
+<p>The forecast is the pre-election model frozen on October 29, 2026. The scorecard compares it with results over the contested seats (both a Democratic-side and a Republican candidate received votes, and the forecast did not hold the seat at a fixed probability). Four measures: the Brier score (mean squared difference between the forecast's Democratic win probability and the outcome, 0 is perfect, 0.25 is a coin flip); a calibration table that bins seats by forecast probability and counts how often the Democratic side won in each bin; coverage of the 90 percent margin interval (how many actual margins fell between the forecast's 5th and 95th percentiles; about 90 percent means the uncertainty was sized right); and the margin error, actual minus forecast, summarized by mean, median and mean absolute error for each chamber. SD-46 is excluded from the Senate margin statistics for the reason above. Uncontested seats are scored for probability but have no margin.</p>
+
+<h2>How to refresh</h2>
+<p>The repository README has the step-by-step. In short: <code>scripts/fetch_api.py</code> and <code>scripts/fetch_api2.py</code> pull the 2026 and comparison races from the state; <code>scripts/fetch_acs.sh</code> downloads the census tables and <code>scripts/build_acs.py</code> turns them into county, tract and block-group shares; <code>scripts/build_data.py</code> writes every JSON file the pages read. When certified precinct returns are published, a precinct build replaces the county inputs and the pages' geography note changes from county to precinct.</p>
+
+<h2>Who made this</h2>
+<p>An independent, unpaid analysis built from public data. No campaign, party, employer or client was involved, and no private data was used.</p>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Census figures from the American Community Survey 2020-2024 five-year estimates. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/methods.js"></script>
+</body>
+</html>

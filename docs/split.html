@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Legislators ran 13 points behind Shapiro</title>
+<meta name="description" content="Pennsylvania's 2026 legislative candidates compared with the governor's race in the same district. A 22-point governor landslide produced small legislative gains because Republican legislators held about 13 points of ticket splitting.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="index.html">PA 2026: What happened</a><nav><a href="index.html">Home</a><a href="scorecard.html">Scorecard</a><a href="map.html">Swing map</a><a href="split.html" class="active">Split tickets</a><a href="mail.html">Mail vs in person</a><a href="turnout.html">Turnout</a><a href="demographics.html">Demographics</a><a href="methods.html">Methods &amp; data</a></nav></header>
+<main>
+  <h1>A 22-point governor landslide bought three Senate seats and ten House seats. Republican legislators held about 13 points of ticket splitting.</h1>
+  <p class="dek">Shapiro won by <span id="govm">22.4</span> points two-party. In the same districts, Democratic legislative candidates ran a median <span id="senmed">13.5</span> points behind him in the Senate and <span id="housemed">13.0</span> in the House. That gap, not the map, is why control of the legislature changed by so little.</p>
+  <div class="byline" id="vintage"></div>
+  <div class="banner" id="banner"></div>
+  <p class="note">Geography: <b>county data now, precinct data after certification.</b> The governor's margin by legislative district on this page is an <b>estimate</b> (explained below) until the state publishes precinct results. The 2024 presidential margin by district is exact.</p>
+
+  <h2>How the governor's margin by district is estimated</h2>
+  <p>Legislative districts do not follow county lines, and the state publishes 2026 results only by county until certification. So each district's governor margin here is its exact 2024 presidential margin (built from certified 2024 precinct returns on the 2022 district lines) plus the 2026 governor-minus-2024 president swing of each county the district touches, weighted by the legislative votes cast in that county piece. A district inherits its county's swing, so a Philadelphia or Allegheny sub-county district is assigned the whole county's shift. That is the main source of error, and it is why every number derived from this estimate is labeled as such. Use the toggle to see the same chart against the exact 2024 presidential margin instead.</p>
+
+  <figure>
+    <p class="headline">Almost every legislative candidate ran behind the Democrat at the top of the ticket</p>
+    <div class="toggle" id="x-toggle"><button data-k="gov" class="on">vs estimated 2026 governor margin</button><button data-k="pres">vs exact 2024 president margin</button></div>
+    <div class="chart" id="scatter"></div>
+    <div class="legend"><span><i style="background:var(--dem)"></i>Democrat won</span><span><i style="background:var(--rep)"></i>Republican won</span><span><i class="sq" style="background:var(--purple)"></i>Line: legislator equals top of ticket</span></div>
+    <figcaption id="scatter-cap">Each dot is a contested seat (both parties on the ballot). Vertical: the legislative candidate's two-party margin, unofficial. Horizontal: the estimated governor margin in the district. Dots below the dashed line are districts where the Democratic legislative candidate ran behind Shapiro. SD-46 is shown with the independent treated as the Democratic side, as the forecast did.</figcaption>
+  </figure>
+
+  <h2>What the gap means for seats</h2>
+  <p>On the estimate, Democratic legislative candidates ran behind Shapiro in <span id="sen-behind"></span> of <span id="sen-n"></span> contested Senate seats and <span id="house-behind-pct"></span> percent of the <span id="house-n"></span> contested House seats. <span id="gov-d-leg-r-n"></span> districts that Shapiro is estimated to have carried elected a Republican legislator, among them <span id="gov-d-leg-r-sen"></span>. One went the other way: HD-72 in Cambria County, where Frank Burns (D) won by <span id="h72"></span> in a district Trump carried by <span id="h72pres"></span> and Shapiro is estimated to have lost.</p>
+  <p>The 2024 presidential comparison needs no estimate and tells the same story from the other side. <span id="trump-d-n"></span> districts Trump carried in 2024 elected Democrats (<span id="trump-d-sen"></span> in the Senate and <span id="trump-d-house"></span> in the House), and <span id="harris-r-n"></span> districts Harris carried elected Republicans. Legislative margins ran a median <span id="pres-gap-sen"></span> points (Senate) and <span id="pres-gap-house"></span> points (House) bluer than the 2024 presidential vote. Legislative Democrats beat Harris everywhere and lost to Shapiro almost everywhere; the ticket splitting ran toward Republican legislators.</p>
+
+  <figure>
+    <p class="headline">Senate: the gap between the legislative margin and the estimated governor margin, seat by seat</p>
+    <div class="chart" id="dots"></div>
+    <div class="legend"><span><i style="background:var(--dem)"></i>Legislative margin, Democrat won</span><span><i style="background:var(--rep)"></i>Legislative margin, Republican won</span><span><i style="border:1.5px solid var(--muted);background:transparent"></i>Estimated governor margin</span></div>
+    <figcaption>Each row is a contested Senate seat, sorted by the size of the gap. The filled dot is the legislative result; the open dot is the estimated 2026 governor margin in the district; the line between them is the split-ticket distance. Jackie Baker's SD-20 and Frank Farry's SD-6 are the largest Republican overperformances relative to the top of the ticket.</figcaption>
+  </figure>
+
+  <h2>Every contested seat</h2>
+  <p class="sub">Click a column header to sort. Gap is legislative margin minus estimated governor margin; negative means the Democratic legislative candidate ran behind Shapiro. All 2026 figures unofficial.</p>
+  <div class="tablewrap"><table id="seats"><thead><tr>
+    <th data-k="seatnum">Seat</th><th data-k="winner">Won</th><th data-k="margin" class="num">Legislative</th><th data-k="est" class="num">Est. governor</th><th data-k="gap" class="num">Gap</th><th data-k="pres" class="num hide-sm">2024 president</th><th data-k="holder" class="hide-sm">Held by</th>
+  </tr></thead><tbody></tbody></table></div>
+
+  <h2>Caveats</h2>
+  <p>The governor estimate assigns each county's swing uniformly to every district within it. Where a county's swing was uneven, for instance between Philadelphia's river wards and its northeast, the estimate is off for the districts inside it, and the 13-point median could move by a point or two once precincts are certified. The direction cannot plausibly flip: against the exact 2024 presidential numbers, which carry no estimate, Democratic legislators still ran 10 to 12 points ahead of Harris while Shapiro ran 24 points ahead of her statewide. Counts for the three House seats inside 220 votes (HD-41, HD-143, HD-147) could change which party they land in.</p>
+</main>
+<footer>Unofficial results from the Pennsylvania Department of State (electionreturns.pa.gov), pulled through the election-night tracker's client. Nothing here is a certified result. <a href="methods.html">Sources, definitions and caveats.</a></footer>
+<script src="assets/site.js"></script>
+<script src="assets/split.js"></script>
+</body>
+</html>
