@@ -1,0 +1,2500 @@
+[
+{
+"seat": "S4",
+"leg": 76.1,
+"pres24": 68.1,
+"gov22": 77.4,
+"est_gov26": 89.9,
+"split": -13.8,
+"leg_vs_pres": 8.1,
+"forecast": 56.7,
+"holder": "D",
+"counties": [
+"MONTGOMERY",
+"PHILADELPHIA"
+],
+"single_county": false
+},
+{
+"seat": "S6",
+"leg": 2.2,
+"pres24": -5.5,
+"gov22": 17.4,
+"est_gov26": 20.5,
+"split": -18.4,
+"leg_vs_pres": 7.7,
+"forecast": 2.4,
+"holder": "R",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "S10",
+"leg": 28.4,
+"pres24": 10.2,
+"gov22": 29.7,
+"est_gov26": 36.3,
+"split": -7.9,
+"leg_vs_pres": 18.2,
+"forecast": 22.5,
+"holder": "D",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "S12",
+"leg": 32.5,
+"pres24": 16.1,
+"gov22": 34.9,
+"est_gov26": 39.6,
+"split": -7.1,
+"leg_vs_pres": 16.4,
+"forecast": 28.5,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "S14",
+"leg": 25.0,
+"pres24": 0.9,
+"gov22": 18.6,
+"est_gov26": 27.6,
+"split": -2.6,
+"leg_vs_pres": 24.2,
+"forecast": 14.1,
+"holder": "D",
+"counties": [
+"LEHIGH",
+"NORTHAMPTON"
+],
+"single_county": false
+},
+{
+"seat": "S16",
+"leg": 2.5,
+"pres24": -9.1,
+"gov22": 7.2,
+"est_gov26": 17.5,
+"split": -15.0,
+"leg_vs_pres": 11.6,
+"forecast": 1.8,
+"holder": "R",
+"counties": [
+"BUCKS",
+"LEHIGH"
+],
+"single_county": false
+},
+{
+"seat": "S18",
+"leg": 29.7,
+"pres24": 5.0,
+"gov22": 20.2,
+"est_gov26": 31.5,
+"split": -1.8,
+"leg_vs_pres": 24.7,
+"forecast": 23.1,
+"holder": "D",
+"counties": [
+"LEHIGH",
+"NORTHAMPTON"
+],
+"single_county": false
+},
+{
+"seat": "S20",
+"leg": -23.0,
+"pres24": -27.3,
+"gov22": -12.0,
+"est_gov26": -2.7,
+"split": -20.3,
+"leg_vs_pres": 4.3,
+"forecast": -25.1,
+"holder": "R",
+"counties": [
+"LUZERNE",
+"PIKE",
+"SUSQUEHANNA",
+"WAYNE",
+"WYOMING"
+],
+"single_county": false
+},
+{
+"seat": "S22",
+"leg": 31.1,
+"pres24": 3.9,
+"gov22": 26.0,
+"est_gov26": 33.6,
+"split": -2.5,
+"leg_vs_pres": 27.2,
+"forecast": 23.4,
+"holder": "D",
+"counties": [
+"LACKAWANNA",
+"LUZERNE"
+],
+"single_county": false
+},
+{
+"seat": "S24",
+"leg": 10.7,
+"pres24": -2.3,
+"gov22": 13.8,
+"est_gov26": 21.5,
+"split": -10.8,
+"leg_vs_pres": 12.9,
+"forecast": 2.3,
+"holder": "R",
+"counties": [
+"BERKS",
+"MONTGOMERY"
+],
+"single_county": false
+},
+{
+"seat": "S26",
+"leg": 36.9,
+"pres24": 19.6,
+"gov22": 34.6,
+"est_gov26": 41.9,
+"split": -5.1,
+"leg_vs_pres": 17.3,
+"forecast": 26.6,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "S28",
+"leg": -23.2,
+"pres24": -29.2,
+"gov22": -11.9,
+"est_gov26": -5.2,
+"split": -18.0,
+"leg_vs_pres": 6.0,
+"forecast": -27.5,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "S30",
+"leg": -44.9,
+"pres24": -51.2,
+"gov22": -35.4,
+"est_gov26": -31.5,
+"split": -13.3,
+"leg_vs_pres": 6.3,
+"forecast": -40.0,
+"holder": "R",
+"counties": [
+"BLAIR",
+"FULTON",
+"HUNTINGDON",
+"JUNIATA",
+"MIFFLIN"
+],
+"single_county": false
+},
+{
+"seat": "S32",
+"leg": -41.5,
+"pres24": -50.4,
+"gov22": -31.1,
+"est_gov26": -26.8,
+"split": -14.7,
+"leg_vs_pres": 8.9,
+"forecast": -39.0,
+"holder": "R",
+"counties": [
+"BEDFORD",
+"FAYETTE",
+"SOMERSET",
+"WESTMORELAND"
+],
+"single_county": false
+},
+{
+"seat": "S34",
+"leg": -13.9,
+"pres24": -22.6,
+"gov22": -5.0,
+"est_gov26": 1.4,
+"split": -15.3,
+"leg_vs_pres": 8.7,
+"forecast": -20.5,
+"holder": "R",
+"counties": [
+"CUMBERLAND",
+"DAUPHIN",
+"PERRY"
+],
+"single_county": false
+},
+{
+"seat": "S36",
+"leg": -9.2,
+"pres24": -15.5,
+"gov22": 0.3,
+"est_gov26": 5.1,
+"split": -14.2,
+"leg_vs_pres": 6.3,
+"forecast": -2.2,
+"holder": "D",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "S38",
+"leg": 27.3,
+"pres24": 10.4,
+"gov22": 30.8,
+"est_gov26": 34.0,
+"split": -6.7,
+"leg_vs_pres": 16.9,
+"forecast": 19.4,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "S40",
+"leg": 2.9,
+"pres24": -6.5,
+"gov22": 8.3,
+"est_gov26": 19.3,
+"split": -16.4,
+"leg_vs_pres": 9.4,
+"forecast": -1.8,
+"holder": "R",
+"counties": [
+"LACKAWANNA",
+"MONROE",
+"WAYNE"
+],
+"single_county": false
+},
+{
+"seat": "S44",
+"leg": 28.5,
+"pres24": 10.6,
+"gov22": 24.2,
+"est_gov26": 33.2,
+"split": -4.7,
+"leg_vs_pres": 17.8,
+"forecast": 19.1,
+"holder": "D",
+"counties": [
+"BERKS",
+"CHESTER",
+"MONTGOMERY"
+],
+"single_county": false
+},
+{
+"seat": "S46",
+"leg": -12.4,
+"pres24": -28.7,
+"gov22": -5.0,
+"est_gov26": -0.3,
+"split": -12.1,
+"leg_vs_pres": 16.3,
+"forecast": -5.4,
+"holder": "R",
+"counties": [
+"BEAVER",
+"GREENE",
+"WASHINGTON"
+],
+"single_county": false
+},
+{
+"seat": "S48",
+"leg": -24.2,
+"pres24": -34.2,
+"gov22": -17.4,
+"est_gov26": -10.1,
+"split": -14.1,
+"leg_vs_pres": 10.0,
+"forecast": -31.1,
+"holder": "R",
+"counties": [
+"BERKS",
+"LANCASTER",
+"LEBANON"
+],
+"single_county": false
+},
+{
+"seat": "S50",
+"leg": -28.6,
+"pres24": -34.0,
+"gov22": -16.8,
+"est_gov26": -11.9,
+"split": -16.7,
+"leg_vs_pres": 5.4,
+"forecast": -28.0,
+"holder": "R",
+"counties": [
+"CRAWFORD",
+"LAWRENCE",
+"MERCER"
+],
+"single_county": false
+},
+{
+"seat": "H3",
+"leg": 30.9,
+"pres24": 2.0,
+"gov22": 25.6,
+"est_gov26": 27.2,
+"split": 3.7,
+"leg_vs_pres": 28.9,
+"forecast": 24.5,
+"holder": "D",
+"counties": [
+"ERIE"
+],
+"single_county": true
+},
+{
+"seat": "H4",
+"leg": -18.5,
+"pres24": -26.2,
+"gov22": -3.8,
+"est_gov26": -1.0,
+"split": -17.5,
+"leg_vs_pres": 7.7,
+"forecast": -19.6,
+"holder": "R",
+"counties": [
+"ERIE"
+],
+"single_county": true
+},
+{
+"seat": "H5",
+"leg": -22.0,
+"pres24": -27.5,
+"gov22": -10.5,
+"est_gov26": -2.6,
+"split": -19.3,
+"leg_vs_pres": 5.6,
+"forecast": -19.4,
+"holder": "R",
+"counties": [
+"BERKS"
+],
+"single_county": true
+},
+{
+"seat": "H6",
+"leg": -26.6,
+"pres24": -35.0,
+"gov22": -17.1,
+"est_gov26": -15.2,
+"split": -11.5,
+"leg_vs_pres": 8.3,
+"forecast": -26.1,
+"holder": "R",
+"counties": [
+"CRAWFORD",
+"ERIE"
+],
+"single_county": false
+},
+{
+"seat": "H7",
+"leg": -14.0,
+"pres24": -17.7,
+"gov22": -4.4,
+"est_gov26": 3.8,
+"split": -17.8,
+"leg_vs_pres": 3.7,
+"forecast": -12.2,
+"holder": "R",
+"counties": [
+"MERCER"
+],
+"single_county": true
+},
+{
+"seat": "H8",
+"leg": -26.0,
+"pres24": -42.2,
+"gov22": -22.0,
+"est_gov26": -16.8,
+"split": -9.2,
+"leg_vs_pres": 16.3,
+"forecast": -34.1,
+"holder": "R",
+"counties": [
+"BUTLER",
+"LAWRENCE"
+],
+"single_county": false
+},
+{
+"seat": "H9",
+"leg": -23.3,
+"pres24": -30.0,
+"gov22": -5.6,
+"est_gov26": -3.4,
+"split": -19.8,
+"leg_vs_pres": 6.7,
+"forecast": -21.0,
+"holder": "R",
+"counties": [
+"LAWRENCE"
+],
+"single_county": true
+},
+{
+"seat": "H12",
+"leg": -1.8,
+"pres24": -18.5,
+"gov22": 0.4,
+"est_gov26": 6.5,
+"split": -8.3,
+"leg_vs_pres": 16.8,
+"forecast": -8.5,
+"holder": "D",
+"counties": [
+"BUTLER"
+],
+"single_county": true
+},
+{
+"seat": "H13",
+"leg": 2.3,
+"pres24": -4.8,
+"gov22": 5.0,
+"est_gov26": 17.5,
+"split": -15.2,
+"leg_vs_pres": 7.0,
+"forecast": -0.6,
+"holder": "R",
+"counties": [
+"CHESTER"
+],
+"single_county": true
+},
+{
+"seat": "H14",
+"leg": -16.0,
+"pres24": -27.4,
+"gov22": -4.3,
+"est_gov26": -0.3,
+"split": -15.6,
+"leg_vs_pres": 11.5,
+"forecast": -16.9,
+"holder": "R",
+"counties": [
+"BEAVER"
+],
+"single_county": true
+},
+{
+"seat": "H15",
+"leg": -24.4,
+"pres24": -35.0,
+"gov22": -9.0,
+"est_gov26": -7.5,
+"split": -16.9,
+"leg_vs_pres": 10.6,
+"forecast": -25.0,
+"holder": "R",
+"counties": [
+"BEAVER",
+"WASHINGTON"
+],
+"single_county": false
+},
+{
+"seat": "H16",
+"leg": 21.4,
+"pres24": -7.5,
+"gov22": 17.3,
+"est_gov26": 19.6,
+"split": 1.8,
+"leg_vs_pres": 28.9,
+"forecast": 16.4,
+"holder": "D",
+"counties": [
+"BEAVER"
+],
+"single_county": true
+},
+{
+"seat": "H18",
+"leg": 9.7,
+"pres24": -3.3,
+"gov22": 20.6,
+"est_gov26": 22.8,
+"split": -13.1,
+"leg_vs_pres": 13.0,
+"forecast": 5.5,
+"holder": "R",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H20",
+"leg": 37.6,
+"pres24": 17.8,
+"gov22": 38.1,
+"est_gov26": 41.5,
+"split": -3.9,
+"leg_vs_pres": 19.7,
+"forecast": 29.9,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H22",
+"leg": 41.6,
+"pres24": 17.7,
+"gov22": 39.6,
+"est_gov26": 44.6,
+"split": -2.9,
+"leg_vs_pres": 24.0,
+"forecast": 29.4,
+"holder": "D",
+"counties": [
+"LEHIGH"
+],
+"single_county": true
+},
+{
+"seat": "H25",
+"leg": 34.8,
+"pres24": 10.2,
+"gov22": 29.7,
+"est_gov26": 33.8,
+"split": 0.9,
+"leg_vs_pres": 24.5,
+"forecast": 28.3,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H26",
+"leg": 30.0,
+"pres24": 11.2,
+"gov22": 23.8,
+"est_gov26": 33.4,
+"split": -3.4,
+"leg_vs_pres": 18.8,
+"forecast": 25.8,
+"holder": "D",
+"counties": [
+"CHESTER"
+],
+"single_county": true
+},
+{
+"seat": "H28",
+"leg": -5.3,
+"pres24": -7.6,
+"gov22": 12.0,
+"est_gov26": 16.1,
+"split": -21.4,
+"leg_vs_pres": 2.2,
+"forecast": -1.9,
+"holder": "R",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H29",
+"leg": 26.7,
+"pres24": 15.1,
+"gov22": 30.8,
+"est_gov26": 41.2,
+"split": -14.5,
+"leg_vs_pres": 11.6,
+"forecast": 27.4,
+"holder": "D",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H30",
+"leg": 26.6,
+"pres24": 7.8,
+"gov22": 25.5,
+"est_gov26": 31.4,
+"split": -4.8,
+"leg_vs_pres": 18.8,
+"forecast": 21.3,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H32",
+"leg": 51.0,
+"pres24": 27.5,
+"gov22": 43.6,
+"est_gov26": 51.2,
+"split": -0.1,
+"leg_vs_pres": 23.5,
+"forecast": 34.6,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H33",
+"leg": 29.0,
+"pres24": 4.4,
+"gov22": 27.0,
+"est_gov26": 28.0,
+"split": 1.0,
+"leg_vs_pres": 24.6,
+"forecast": 22.9,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H35",
+"leg": 40.7,
+"pres24": 16.0,
+"gov22": 38.1,
+"est_gov26": 39.6,
+"split": 1.1,
+"leg_vs_pres": 24.7,
+"forecast": 27.8,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H36",
+"leg": 55.4,
+"pres24": 28.8,
+"gov22": 50.5,
+"est_gov26": 52.4,
+"split": 3.0,
+"leg_vs_pres": 26.6,
+"forecast": 37.4,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H37",
+"leg": -24.3,
+"pres24": -25.7,
+"gov22": -12.5,
+"est_gov26": -5.1,
+"split": -19.2,
+"leg_vs_pres": 1.3,
+"forecast": -19.6,
+"holder": "R",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "H38",
+"leg": 31.2,
+"pres24": 3.3,
+"gov22": 28.5,
+"est_gov26": 26.9,
+"split": 4.3,
+"leg_vs_pres": 27.9,
+"forecast": 23.9,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H39",
+"leg": -7.0,
+"pres24": -19.2,
+"gov22": 5.6,
+"est_gov26": 5.2,
+"split": -12.3,
+"leg_vs_pres": 12.2,
+"forecast": -10.2,
+"holder": "R",
+"counties": [
+"ALLEGHENY",
+"WASHINGTON"
+],
+"single_county": false
+},
+{
+"seat": "H40",
+"leg": -3.0,
+"pres24": -5.9,
+"gov22": 12.4,
+"est_gov26": 19.3,
+"split": -22.3,
+"leg_vs_pres": 2.9,
+"forecast": -4.3,
+"holder": "R",
+"counties": [
+"ALLEGHENY",
+"WASHINGTON"
+],
+"single_county": false
+},
+{
+"seat": "H41",
+"leg": -0.1,
+"pres24": -5.0,
+"gov22": 13.5,
+"est_gov26": 15.6,
+"split": -15.7,
+"leg_vs_pres": 4.8,
+"forecast": 2.0,
+"holder": "R",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "H43",
+"leg": -29.4,
+"pres24": -33.4,
+"gov22": -20.2,
+"est_gov26": -12.9,
+"split": -16.5,
+"leg_vs_pres": 4.0,
+"forecast": -28.1,
+"holder": "R",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "H44",
+"leg": 6.5,
+"pres24": -3.9,
+"gov22": 16.3,
+"est_gov26": 19.7,
+"split": -13.3,
+"leg_vs_pres": 10.4,
+"forecast": 4.7,
+"holder": "R",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H45",
+"leg": 19.4,
+"pres24": 4.0,
+"gov22": 27.8,
+"est_gov26": 27.6,
+"split": -8.1,
+"leg_vs_pres": 15.5,
+"forecast": 20.0,
+"holder": "D",
+"counties": [
+"ALLEGHENY"
+],
+"single_county": true
+},
+{
+"seat": "H46",
+"leg": -5.4,
+"pres24": -14.8,
+"gov22": 7.6,
+"est_gov26": 12.0,
+"split": -17.4,
+"leg_vs_pres": 9.3,
+"forecast": -9.7,
+"holder": "R",
+"counties": [
+"ALLEGHENY",
+"WASHINGTON"
+],
+"single_county": false
+},
+{
+"seat": "H47",
+"leg": -10.2,
+"pres24": -20.4,
+"gov22": -0.3,
+"est_gov26": 3.6,
+"split": -13.8,
+"leg_vs_pres": 10.2,
+"forecast": -12.5,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H48",
+"leg": -13.8,
+"pres24": -24.8,
+"gov22": -2.6,
+"est_gov26": 3.2,
+"split": -17.0,
+"leg_vs_pres": 11.0,
+"forecast": -18.6,
+"holder": "R",
+"counties": [
+"WASHINGTON"
+],
+"single_county": true
+},
+{
+"seat": "H49",
+"leg": 48.3,
+"pres24": 30.3,
+"gov22": 46.2,
+"est_gov26": 50.9,
+"split": -2.6,
+"leg_vs_pres": 18.0,
+"forecast": 37.5,
+"holder": "D",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "H50",
+"leg": -24.7,
+"pres24": -37.3,
+"gov22": -10.0,
+"est_gov26": -7.8,
+"split": -16.9,
+"leg_vs_pres": 12.6,
+"forecast": -22.5,
+"holder": "R",
+"counties": [
+"GREENE",
+"WASHINGTON"
+],
+"single_county": false
+},
+{
+"seat": "H53",
+"leg": 35.7,
+"pres24": 11.0,
+"gov22": 28.3,
+"est_gov26": 34.5,
+"split": 1.2,
+"leg_vs_pres": 24.7,
+"forecast": 29.2,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H55",
+"leg": -21.3,
+"pres24": -22.8,
+"gov22": -3.2,
+"est_gov26": 3.2,
+"split": -24.4,
+"leg_vs_pres": 1.5,
+"forecast": -18.9,
+"holder": "R",
+"counties": [
+"WESTMORELAND"
+],
+"single_county": true
+},
+{
+"seat": "H57",
+"leg": -16.2,
+"pres24": -22.6,
+"gov22": -1.1,
+"est_gov26": 3.3,
+"split": -19.5,
+"leg_vs_pres": 6.5,
+"forecast": -17.7,
+"holder": "R",
+"counties": [
+"WESTMORELAND"
+],
+"single_county": true
+},
+{
+"seat": "H58",
+"leg": -21.3,
+"pres24": -34.2,
+"gov22": -9.9,
+"est_gov26": -8.3,
+"split": -13.0,
+"leg_vs_pres": 13.0,
+"forecast": -24.6,
+"holder": "R",
+"counties": [
+"WESTMORELAND"
+],
+"single_county": true
+},
+{
+"seat": "H59",
+"leg": -23.1,
+"pres24": -36.4,
+"gov22": -14.6,
+"est_gov26": -10.4,
+"split": -12.6,
+"leg_vs_pres": 13.3,
+"forecast": -25.6,
+"holder": "R",
+"counties": [
+"WESTMORELAND"
+],
+"single_county": true
+},
+{
+"seat": "H60",
+"leg": -31.2,
+"pres24": -39.2,
+"gov22": -14.9,
+"est_gov26": -15.2,
+"split": -16.0,
+"leg_vs_pres": 8.0,
+"forecast": -30.1,
+"holder": "R",
+"counties": [
+"ARMSTRONG",
+"WESTMORELAND"
+],
+"single_county": false
+},
+{
+"seat": "H61",
+"leg": 37.2,
+"pres24": 22.4,
+"gov22": 38.9,
+"est_gov26": 45.9,
+"split": -8.7,
+"leg_vs_pres": 14.8,
+"forecast": 32.3,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H62",
+"leg": -25.9,
+"pres24": -33.2,
+"gov22": -12.1,
+"est_gov26": -7.6,
+"split": -18.3,
+"leg_vs_pres": 7.3,
+"forecast": -25.6,
+"holder": "R",
+"counties": [
+"INDIANA"
+],
+"single_county": true
+},
+{
+"seat": "H63",
+"leg": -50.0,
+"pres24": -57.3,
+"gov22": -37.5,
+"est_gov26": -34.7,
+"split": -15.3,
+"leg_vs_pres": 7.3,
+"forecast": -44.7,
+"holder": "R",
+"counties": [
+"ARMSTRONG",
+"CLARION"
+],
+"single_county": false
+},
+{
+"seat": "H64",
+"leg": -37.8,
+"pres24": -43.3,
+"gov22": -25.0,
+"est_gov26": -23.3,
+"split": -14.5,
+"leg_vs_pres": 5.5,
+"forecast": -33.8,
+"holder": "R",
+"counties": [
+"CRAWFORD",
+"VENANGO"
+],
+"single_county": false
+},
+{
+"seat": "H65",
+"leg": -34.7,
+"pres24": -42.3,
+"gov22": -24.6,
+"est_gov26": -23.4,
+"split": -11.3,
+"leg_vs_pres": 7.6,
+"forecast": -30.6,
+"holder": "R",
+"counties": [
+"CRAWFORD",
+"FOREST",
+"WARREN"
+],
+"single_county": false
+},
+{
+"seat": "H66",
+"leg": -51.5,
+"pres24": -60.2,
+"gov22": -43.3,
+"est_gov26": -36.7,
+"split": -14.8,
+"leg_vs_pres": 8.7,
+"forecast": -46.7,
+"holder": "R",
+"counties": [
+"INDIANA",
+"JEFFERSON"
+],
+"single_county": false
+},
+{
+"seat": "H67",
+"leg": -53.1,
+"pres24": -52.3,
+"gov22": -43.2,
+"est_gov26": -35.4,
+"split": -17.7,
+"leg_vs_pres": -0.9,
+"forecast": -42.5,
+"holder": "R",
+"counties": [
+"CAMERON",
+"MCKEAN",
+"POTTER"
+],
+"single_county": false
+},
+{
+"seat": "H68",
+"leg": -56.5,
+"pres24": -53.8,
+"gov22": -45.3,
+"est_gov26": -37.8,
+"split": -18.7,
+"leg_vs_pres": -2.7,
+"forecast": -44.0,
+"holder": "R",
+"counties": [
+"BRADFORD",
+"TIOGA"
+],
+"single_county": false
+},
+{
+"seat": "H72",
+"leg": 17.5,
+"pres24": -31.6,
+"gov22": -7.6,
+"est_gov26": -5.4,
+"split": 22.9,
+"leg_vs_pres": 49.1,
+"forecast": 1.7,
+"holder": "D",
+"counties": [
+"CAMBRIA"
+],
+"single_county": true
+},
+{
+"seat": "H74",
+"leg": 28.4,
+"pres24": 9.0,
+"gov22": 20.2,
+"est_gov26": 31.2,
+"split": -2.7,
+"leg_vs_pres": 19.5,
+"forecast": 22.0,
+"holder": "D",
+"counties": [
+"CHESTER"
+],
+"single_county": true
+},
+{
+"seat": "H75",
+"leg": -41.7,
+"pres24": -48.8,
+"gov22": -30.3,
+"est_gov26": -26.9,
+"split": -14.9,
+"leg_vs_pres": 7.0,
+"forecast": -38.9,
+"holder": "R",
+"counties": [
+"CLEARFIELD",
+"ELK",
+"JEFFERSON"
+],
+"single_county": false
+},
+{
+"seat": "H76",
+"leg": -20.5,
+"pres24": -36.8,
+"gov22": -22.2,
+"est_gov26": -14.3,
+"split": -6.2,
+"leg_vs_pres": 16.3,
+"forecast": -26.0,
+"holder": "R",
+"counties": [
+"CLINTON",
+"UNION"
+],
+"single_county": false
+},
+{
+"seat": "H77",
+"leg": 35.1,
+"pres24": 16.3,
+"gov22": 29.7,
+"est_gov26": 36.1,
+"split": -1.1,
+"leg_vs_pres": 18.8,
+"forecast": 31.2,
+"holder": "D",
+"counties": [
+"CENTRE"
+],
+"single_county": true
+},
+{
+"seat": "H79",
+"leg": -17.7,
+"pres24": -32.9,
+"gov22": -15.7,
+"est_gov26": -13.2,
+"split": -4.4,
+"leg_vs_pres": 15.2,
+"forecast": -25.8,
+"holder": "R",
+"counties": [
+"BLAIR"
+],
+"single_county": true
+},
+{
+"seat": "H80",
+"leg": -46.4,
+"pres24": -53.5,
+"gov22": -39.5,
+"est_gov26": -33.9,
+"split": -12.5,
+"leg_vs_pres": 7.1,
+"forecast": -43.2,
+"holder": "R",
+"counties": [
+"BLAIR",
+"HUNTINGDON"
+],
+"single_county": false
+},
+{
+"seat": "H81",
+"leg": -49.9,
+"pres24": -54.9,
+"gov22": -40.6,
+"est_gov26": -36.1,
+"split": -13.9,
+"leg_vs_pres": 4.9,
+"forecast": -40.5,
+"holder": "R",
+"counties": [
+"FRANKLIN",
+"HUNTINGDON"
+],
+"single_county": false
+},
+{
+"seat": "H82",
+"leg": 23.9,
+"pres24": 4.3,
+"gov22": 18.4,
+"est_gov26": 24.2,
+"split": -0.3,
+"leg_vs_pres": 19.5,
+"forecast": 20.3,
+"holder": "D",
+"counties": [
+"CENTRE"
+],
+"single_county": true
+},
+{
+"seat": "H86",
+"leg": -47.4,
+"pres24": -52.3,
+"gov22": -32.4,
+"est_gov26": -29.7,
+"split": -17.7,
+"leg_vs_pres": 4.9,
+"forecast": -40.8,
+"holder": "R",
+"counties": [
+"JUNIATA",
+"PERRY"
+],
+"single_county": false
+},
+{
+"seat": "H87",
+"leg": -8.9,
+"pres24": -11.5,
+"gov22": 6.4,
+"est_gov26": 12.9,
+"split": -21.8,
+"leg_vs_pres": 2.6,
+"forecast": -10.1,
+"holder": "R",
+"counties": [
+"CUMBERLAND"
+],
+"single_county": true
+},
+{
+"seat": "H88",
+"leg": 13.7,
+"pres24": -0.9,
+"gov22": 18.5,
+"est_gov26": 23.5,
+"split": -9.8,
+"leg_vs_pres": 14.6,
+"forecast": 7.3,
+"holder": "R",
+"counties": [
+"CUMBERLAND"
+],
+"single_county": true
+},
+{
+"seat": "H89",
+"leg": -28.2,
+"pres24": -32.0,
+"gov22": -21.3,
+"est_gov26": -12.0,
+"split": -16.2,
+"leg_vs_pres": 3.8,
+"forecast": -27.2,
+"holder": "R",
+"counties": [
+"FRANKLIN"
+],
+"single_county": true
+},
+{
+"seat": "H91",
+"leg": -17.9,
+"pres24": -29.6,
+"gov22": -12.9,
+"est_gov26": -4.6,
+"split": -13.3,
+"leg_vs_pres": 11.7,
+"forecast": -23.8,
+"holder": "R",
+"counties": [
+"ADAMS"
+],
+"single_county": true
+},
+{
+"seat": "H92",
+"leg": -27.4,
+"pres24": -34.6,
+"gov22": -16.4,
+"est_gov26": -10.5,
+"split": -16.9,
+"leg_vs_pres": 7.2,
+"forecast": -27.1,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H93",
+"leg": -16.2,
+"pres24": -26.4,
+"gov22": -10.3,
+"est_gov26": -2.4,
+"split": -13.8,
+"leg_vs_pres": 10.2,
+"forecast": -21.6,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H94",
+"leg": -25.7,
+"pres24": -34.7,
+"gov22": -15.7,
+"est_gov26": -10.6,
+"split": -15.0,
+"leg_vs_pres": 9.0,
+"forecast": -27.4,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H95",
+"leg": 39.4,
+"pres24": 24.1,
+"gov22": 42.5,
+"est_gov26": 48.1,
+"split": -8.7,
+"leg_vs_pres": 15.4,
+"forecast": 32.1,
+"holder": "D",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H96",
+"leg": 36.0,
+"pres24": 21.5,
+"gov22": 37.3,
+"est_gov26": 42.1,
+"split": -6.0,
+"leg_vs_pres": 14.5,
+"forecast": 31.6,
+"holder": "D",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "H97",
+"leg": -11.3,
+"pres24": -15.7,
+"gov22": -1.9,
+"est_gov26": 4.9,
+"split": -16.2,
+"leg_vs_pres": 4.4,
+"forecast": -10.9,
+"holder": "R",
+"counties": [
+"LANCASTER"
+],
+"single_county": true
+},
+{
+"seat": "H98",
+"leg": -14.5,
+"pres24": -24.4,
+"gov22": -8.4,
+"est_gov26": -3.1,
+"split": -11.4,
+"leg_vs_pres": 10.0,
+"forecast": -15.8,
+"holder": "R",
+"counties": [
+"LANCASTER",
+"LEBANON"
+],
+"single_county": false
+},
+{
+"seat": "H99",
+"leg": -36.1,
+"pres24": -42.9,
+"gov22": -28.9,
+"est_gov26": -21.0,
+"split": -15.1,
+"leg_vs_pres": 6.8,
+"forecast": -36.5,
+"holder": "R",
+"counties": [
+"BERKS",
+"LANCASTER"
+],
+"single_county": false
+},
+{
+"seat": "H102",
+"leg": -30.3,
+"pres24": -41.9,
+"gov22": -24.0,
+"est_gov26": -17.4,
+"split": -12.9,
+"leg_vs_pres": 11.7,
+"forecast": -33.8,
+"holder": "R",
+"counties": [
+"LEBANON"
+],
+"single_county": true
+},
+{
+"seat": "H103",
+"leg": 36.8,
+"pres24": 24.7,
+"gov22": 40.6,
+"est_gov26": 48.4,
+"split": -11.6,
+"leg_vs_pres": 12.1,
+"forecast": 32.8,
+"holder": "D",
+"counties": [
+"CUMBERLAND",
+"DAUPHIN"
+],
+"single_county": false
+},
+{
+"seat": "H106",
+"leg": -15.1,
+"pres24": -9.9,
+"gov22": 8.8,
+"est_gov26": 12.6,
+"split": -27.7,
+"leg_vs_pres": -5.2,
+"forecast": -11.1,
+"holder": "R",
+"counties": [
+"DAUPHIN"
+],
+"single_county": true
+},
+{
+"seat": "H107",
+"leg": -41.3,
+"pres24": -49.1,
+"gov22": -30.0,
+"est_gov26": -22.8,
+"split": -18.5,
+"leg_vs_pres": 7.8,
+"forecast": -38.2,
+"holder": "R",
+"counties": [
+"NORTHUMBERLAND",
+"SCHUYLKILL"
+],
+"single_county": false
+},
+{
+"seat": "H108",
+"leg": -29.5,
+"pres24": -32.9,
+"gov22": -17.0,
+"est_gov26": -8.1,
+"split": -21.3,
+"leg_vs_pres": 3.5,
+"forecast": -27.1,
+"holder": "R",
+"counties": [
+"MONTOUR",
+"NORTHUMBERLAND"
+],
+"single_county": false
+},
+{
+"seat": "H109",
+"leg": -22.8,
+"pres24": -31.3,
+"gov22": -15.8,
+"est_gov26": -6.5,
+"split": -16.4,
+"leg_vs_pres": 8.5,
+"forecast": -21.2,
+"holder": "R",
+"counties": [
+"COLUMBIA"
+],
+"single_county": true
+},
+{
+"seat": "H110",
+"leg": -42.4,
+"pres24": -40.6,
+"gov22": -25.6,
+"est_gov26": -21.2,
+"split": -21.1,
+"leg_vs_pres": -1.7,
+"forecast": -32.9,
+"holder": "R",
+"counties": [
+"BRADFORD",
+"WYOMING"
+],
+"single_county": false
+},
+{
+"seat": "H111",
+"leg": -40.6,
+"pres24": -42.5,
+"gov22": -29.2,
+"est_gov26": -21.5,
+"split": -19.1,
+"leg_vs_pres": 1.8,
+"forecast": -35.7,
+"holder": "R",
+"counties": [
+"SUSQUEHANNA",
+"WAYNE"
+],
+"single_county": false
+},
+{
+"seat": "H112",
+"leg": 35.3,
+"pres24": 1.1,
+"gov22": 25.7,
+"est_gov26": 31.6,
+"split": 3.8,
+"leg_vs_pres": 34.2,
+"forecast": 17.2,
+"holder": "D",
+"counties": [
+"LACKAWANNA"
+],
+"single_county": true
+},
+{
+"seat": "H113",
+"leg": 35.1,
+"pres24": 6.5,
+"gov22": 28.0,
+"est_gov26": 36.9,
+"split": -1.8,
+"leg_vs_pres": 28.6,
+"forecast": 20.2,
+"holder": "D",
+"counties": [
+"LACKAWANNA"
+],
+"single_county": true
+},
+{
+"seat": "H114",
+"leg": 35.4,
+"pres24": 6.6,
+"gov22": 26.9,
+"est_gov26": 37.1,
+"split": -1.7,
+"leg_vs_pres": 28.7,
+"forecast": 19.6,
+"holder": "D",
+"counties": [
+"LACKAWANNA"
+],
+"single_county": true
+},
+{
+"seat": "H115",
+"leg": 25.9,
+"pres24": 7.3,
+"gov22": 19.0,
+"est_gov26": 31.8,
+"split": -5.9,
+"leg_vs_pres": 18.6,
+"forecast": 20.9,
+"holder": "D",
+"counties": [
+"MONROE"
+],
+"single_county": true
+},
+{
+"seat": "H117",
+"leg": -34.0,
+"pres24": -42.0,
+"gov22": -25.4,
+"est_gov26": -13.8,
+"split": -20.2,
+"leg_vs_pres": 7.9,
+"forecast": -33.2,
+"holder": "R",
+"counties": [
+"LUZERNE"
+],
+"single_county": true
+},
+{
+"seat": "H118",
+"leg": 23.3,
+"pres24": -7.5,
+"gov22": 15.1,
+"est_gov26": 21.7,
+"split": 1.6,
+"leg_vs_pres": 30.8,
+"forecast": 18.1,
+"holder": "D",
+"counties": [
+"LACKAWANNA",
+"LUZERNE"
+],
+"single_county": false
+},
+{
+"seat": "H119",
+"leg": -17.8,
+"pres24": -17.2,
+"gov22": 5.6,
+"est_gov26": 10.9,
+"split": -28.7,
+"leg_vs_pres": -0.6,
+"forecast": -10.9,
+"holder": "R",
+"counties": [
+"LUZERNE"
+],
+"single_county": true
+},
+{
+"seat": "H120",
+"leg": -8.5,
+"pres24": -11.8,
+"gov22": 8.2,
+"est_gov26": 16.3,
+"split": -24.8,
+"leg_vs_pres": 3.3,
+"forecast": -2.1,
+"holder": "R",
+"counties": [
+"LUZERNE"
+],
+"single_county": true
+},
+{
+"seat": "H121",
+"leg": 16.3,
+"pres24": -1.8,
+"gov22": 19.2,
+"est_gov26": 26.4,
+"split": -10.1,
+"leg_vs_pres": 18.0,
+"forecast": 12.3,
+"holder": "D",
+"counties": [
+"LUZERNE"
+],
+"single_county": true
+},
+{
+"seat": "H122",
+"leg": -19.4,
+"pres24": -35.1,
+"gov22": -16.4,
+"est_gov26": -7.0,
+"split": -12.4,
+"leg_vs_pres": 15.7,
+"forecast": -27.1,
+"holder": "R",
+"counties": [
+"CARBON"
+],
+"single_county": true
+},
+{
+"seat": "H123",
+"leg": -23.8,
+"pres24": -34.1,
+"gov22": -10.4,
+"est_gov26": -5.7,
+"split": -18.1,
+"leg_vs_pres": 10.4,
+"forecast": -27.9,
+"holder": "R",
+"counties": [
+"SCHUYLKILL"
+],
+"single_county": true
+},
+{
+"seat": "H124",
+"leg": -29.4,
+"pres24": -39.0,
+"gov22": -22.3,
+"est_gov26": -12.1,
+"split": -17.2,
+"leg_vs_pres": 9.7,
+"forecast": -29.8,
+"holder": "R",
+"counties": [
+"BERKS",
+"SCHUYLKILL"
+],
+"single_county": false
+},
+{
+"seat": "H125",
+"leg": -24.4,
+"pres24": -25.5,
+"gov22": -5.2,
+"est_gov26": -3.0,
+"split": -21.5,
+"leg_vs_pres": 1.1,
+"forecast": -22.5,
+"holder": "R",
+"counties": [
+"DAUPHIN"
+],
+"single_county": true
+},
+{
+"seat": "H126",
+"leg": 35.2,
+"pres24": 4.6,
+"gov22": 24.8,
+"est_gov26": 29.5,
+"split": 5.8,
+"leg_vs_pres": 30.7,
+"forecast": 22.6,
+"holder": "D",
+"counties": [
+"BERKS"
+],
+"single_county": true
+},
+{
+"seat": "H128",
+"leg": -7.5,
+"pres24": -17.4,
+"gov22": -1.1,
+"est_gov26": 7.5,
+"split": -15.0,
+"leg_vs_pres": 9.9,
+"forecast": -12.3,
+"holder": "R",
+"counties": [
+"BERKS"
+],
+"single_county": true
+},
+{
+"seat": "H130",
+"leg": -15.8,
+"pres24": -27.7,
+"gov22": -9.0,
+"est_gov26": -2.9,
+"split": -12.9,
+"leg_vs_pres": 12.0,
+"forecast": -18.5,
+"holder": "R",
+"counties": [
+"BERKS"
+],
+"single_county": true
+},
+{
+"seat": "H131",
+"leg": 2.3,
+"pres24": -10.3,
+"gov22": 5.7,
+"est_gov26": 15.4,
+"split": -13.1,
+"leg_vs_pres": 12.5,
+"forecast": 1.1,
+"holder": "R",
+"counties": [
+"LEHIGH",
+"MONTGOMERY",
+"NORTHAMPTON"
+],
+"single_county": false
+},
+{
+"seat": "H132",
+"leg": 33.7,
+"pres24": 12.1,
+"gov22": 30.6,
+"est_gov26": 39.0,
+"split": -5.2,
+"leg_vs_pres": 21.6,
+"forecast": 26.0,
+"holder": "D",
+"counties": [
+"LEHIGH"
+],
+"single_county": true
+},
+{
+"seat": "H134",
+"leg": 37.9,
+"pres24": 13.0,
+"gov22": 31.0,
+"est_gov26": 39.9,
+"split": -2.0,
+"leg_vs_pres": 24.9,
+"forecast": 25.5,
+"holder": "D",
+"counties": [
+"LEHIGH"
+],
+"single_county": true
+},
+{
+"seat": "H135",
+"leg": 46.9,
+"pres24": 26.0,
+"gov22": 40.4,
+"est_gov26": 52.5,
+"split": -5.6,
+"leg_vs_pres": 20.9,
+"forecast": 34.9,
+"holder": "D",
+"counties": [
+"NORTHAMPTON"
+],
+"single_county": true
+},
+{
+"seat": "H136",
+"leg": 41.5,
+"pres24": 11.5,
+"gov22": 26.1,
+"est_gov26": 38.0,
+"split": 3.4,
+"leg_vs_pres": 30.0,
+"forecast": 22.8,
+"holder": "D",
+"counties": [
+"NORTHAMPTON"
+],
+"single_county": true
+},
+{
+"seat": "H137",
+"leg": 9.2,
+"pres24": -1.0,
+"gov22": 15.1,
+"est_gov26": 25.6,
+"split": -16.3,
+"leg_vs_pres": 10.2,
+"forecast": 7.7,
+"holder": "R",
+"counties": [
+"NORTHAMPTON"
+],
+"single_county": true
+},
+{
+"seat": "H138",
+"leg": -13.2,
+"pres24": -22.3,
+"gov22": -6.1,
+"est_gov26": 4.2,
+"split": -17.4,
+"leg_vs_pres": 9.1,
+"forecast": -15.9,
+"holder": "R",
+"counties": [
+"NORTHAMPTON"
+],
+"single_county": true
+},
+{
+"seat": "H139",
+"leg": -27.3,
+"pres24": -32.1,
+"gov22": -21.6,
+"est_gov26": -9.9,
+"split": -17.4,
+"leg_vs_pres": 4.7,
+"forecast": -22.8,
+"holder": "R",
+"counties": [
+"PIKE",
+"WAYNE"
+],
+"single_county": false
+},
+{
+"seat": "H140",
+"leg": 26.6,
+"pres24": 3.5,
+"gov22": 27.0,
+"est_gov26": 29.6,
+"split": -3.0,
+"leg_vs_pres": 23.1,
+"forecast": 20.5,
+"holder": "D",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H141",
+"leg": 41.5,
+"pres24": 3.4,
+"gov22": 30.1,
+"est_gov26": 29.5,
+"split": 12.0,
+"leg_vs_pres": 38.1,
+"forecast": 33.2,
+"holder": "D",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H142",
+"leg": 5.9,
+"pres24": -3.4,
+"gov22": 18.7,
+"est_gov26": 22.7,
+"split": -16.8,
+"leg_vs_pres": 9.3,
+"forecast": 3.8,
+"holder": "R",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H143",
+"leg": 0.5,
+"pres24": -5.6,
+"gov22": 11.1,
+"est_gov26": 20.5,
+"split": -19.9,
+"leg_vs_pres": 6.1,
+"forecast": 2.2,
+"holder": "R",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H144",
+"leg": 18.6,
+"pres24": -0.3,
+"gov22": 21.7,
+"est_gov26": 25.8,
+"split": -7.1,
+"leg_vs_pres": 19.0,
+"forecast": 13.5,
+"holder": "D",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H146",
+"leg": 40.1,
+"pres24": 10.1,
+"gov22": 26.1,
+"est_gov26": 33.6,
+"split": 6.4,
+"leg_vs_pres": 30.0,
+"forecast": 27.8,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H147",
+"leg": 0.7,
+"pres24": -9.8,
+"gov22": 5.4,
+"est_gov26": 13.7,
+"split": -13.0,
+"leg_vs_pres": 10.5,
+"forecast": -3.1,
+"holder": "R",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H150",
+"leg": 34.1,
+"pres24": 16.1,
+"gov22": 31.6,
+"est_gov26": 39.6,
+"split": -5.6,
+"leg_vs_pres": 17.9,
+"forecast": 28.8,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H151",
+"leg": 39.1,
+"pres24": 21.6,
+"gov22": 41.3,
+"est_gov26": 45.1,
+"split": -6.0,
+"leg_vs_pres": 17.5,
+"forecast": 34.0,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H152",
+"leg": 36.7,
+"pres24": 17.2,
+"gov22": 38.3,
+"est_gov26": 40.8,
+"split": -4.1,
+"leg_vs_pres": 19.4,
+"forecast": 33.1,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H153",
+"leg": 49.6,
+"pres24": 31.7,
+"gov22": 51.1,
+"est_gov26": 55.2,
+"split": -5.6,
+"leg_vs_pres": 17.9,
+"forecast": 39.8,
+"holder": "D",
+"counties": [
+"MONTGOMERY"
+],
+"single_county": true
+},
+{
+"seat": "H156",
+"leg": 35.4,
+"pres24": 18.9,
+"gov22": 33.7,
+"est_gov26": 41.2,
+"split": -5.8,
+"leg_vs_pres": 16.4,
+"forecast": 29.3,
+"holder": "D",
+"counties": [
+"CHESTER"
+],
+"single_county": true
+},
+{
+"seat": "H157",
+"leg": 36.6,
+"pres24": 25.2,
+"gov22": 36.4,
+"est_gov26": 47.4,
+"split": -10.8,
+"leg_vs_pres": 11.4,
+"forecast": 33.5,
+"holder": "D",
+"counties": [
+"CHESTER"
+],
+"single_county": true
+},
+{
+"seat": "H159",
+"leg": 51.9,
+"pres24": 37.0,
+"gov22": 46.2,
+"est_gov26": 59.4,
+"split": -7.5,
+"leg_vs_pres": 14.9,
+"forecast": 40.8,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "H160",
+"leg": 10.0,
+"pres24": 5.4,
+"gov22": 18.5,
+"est_gov26": 27.7,
+"split": -17.7,
+"leg_vs_pres": 4.6,
+"forecast": 10.8,
+"holder": "R",
+"counties": [
+"CHESTER",
+"DELAWARE"
+],
+"single_county": false
+},
+{
+"seat": "H161",
+"leg": 34.2,
+"pres24": 12.9,
+"gov22": 29.8,
+"est_gov26": 35.2,
+"split": -1.0,
+"leg_vs_pres": 21.4,
+"forecast": 27.6,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "H162",
+"leg": 33.5,
+"pres24": 11.1,
+"gov22": 29.6,
+"est_gov26": 33.4,
+"split": 0.1,
+"leg_vs_pres": 22.4,
+"forecast": 25.9,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "H165",
+"leg": 35.9,
+"pres24": 17.4,
+"gov22": 32.7,
+"est_gov26": 39.8,
+"split": -3.9,
+"leg_vs_pres": 18.5,
+"forecast": 31.3,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "H166",
+"leg": 35.1,
+"pres24": 24.2,
+"gov22": 40.5,
+"est_gov26": 46.5,
+"split": -11.5,
+"leg_vs_pres": 10.9,
+"forecast": 30.2,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "H167",
+"leg": 34.9,
+"pres24": 21.6,
+"gov22": 34.3,
+"est_gov26": 43.8,
+"split": -8.9,
+"leg_vs_pres": 13.3,
+"forecast": 29.8,
+"holder": "D",
+"counties": [
+"CHESTER"
+],
+"single_county": true
+},
+{
+"seat": "H168",
+"leg": 32.6,
+"pres24": 20.4,
+"gov22": 35.1,
+"est_gov26": 42.7,
+"split": -10.1,
+"leg_vs_pres": 12.3,
+"forecast": 29.0,
+"holder": "D",
+"counties": [
+"DELAWARE"
+],
+"single_county": true
+},
+{
+"seat": "H169",
+"leg": -26.9,
+"pres24": -32.6,
+"gov22": -16.8,
+"est_gov26": -8.6,
+"split": -18.3,
+"leg_vs_pres": 5.8,
+"forecast": -26.4,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H170",
+"leg": -15.3,
+"pres24": -14.7,
+"gov22": 12.2,
+"est_gov26": 5.3,
+"split": -20.6,
+"leg_vs_pres": -0.6,
+"forecast": -8.4,
+"holder": "R",
+"counties": [
+"PHILADELPHIA"
+],
+"single_county": true
+},
+{
+"seat": "H171",
+"leg": -33.5,
+"pres24": -38.2,
+"gov22": -19.5,
+"est_gov26": -17.1,
+"split": -16.4,
+"leg_vs_pres": 4.6,
+"forecast": -32.3,
+"holder": "R",
+"counties": [
+"CENTRE",
+"MIFFLIN"
+],
+"single_county": false
+},
+{
+"seat": "H173",
+"leg": 32.3,
+"pres24": 5.1,
+"gov22": 28.5,
+"est_gov26": 25.1,
+"split": 7.2,
+"leg_vs_pres": 27.2,
+"forecast": 20.5,
+"holder": "D",
+"counties": [
+"PHILADELPHIA"
+],
+"single_county": true
+},
+{
+"seat": "H176",
+"leg": -12.2,
+"pres24": -18.3,
+"gov22": -5.7,
+"est_gov26": 6.1,
+"split": -18.4,
+"leg_vs_pres": 6.1,
+"forecast": -11.9,
+"holder": "R",
+"counties": [
+"MONROE"
+],
+"single_county": true
+},
+{
+"seat": "H177",
+"leg": 45.8,
+"pres24": 23.9,
+"gov22": 46.3,
+"est_gov26": 43.9,
+"split": 1.9,
+"leg_vs_pres": 21.9,
+"forecast": 35.0,
+"holder": "D",
+"counties": [
+"PHILADELPHIA"
+],
+"single_county": true
+},
+{
+"seat": "H178",
+"leg": -7.2,
+"pres24": -13.0,
+"gov22": 10.2,
+"est_gov26": 13.1,
+"split": -20.3,
+"leg_vs_pres": 5.8,
+"forecast": -9.9,
+"holder": "R",
+"counties": [
+"BUCKS"
+],
+"single_county": true
+},
+{
+"seat": "H183",
+"leg": -12.4,
+"pres24": -21.8,
+"gov22": -4.1,
+"est_gov26": 4.8,
+"split": -17.2,
+"leg_vs_pres": 9.4,
+"forecast": -16.0,
+"holder": "R",
+"counties": [
+"LEHIGH",
+"NORTHAMPTON"
+],
+"single_county": false
+},
+{
+"seat": "H187",
+"leg": 2.2,
+"pres24": -9.5,
+"gov22": 6.6,
+"est_gov26": 17.4,
+"split": -15.2,
+"leg_vs_pres": 11.7,
+"forecast": 2.5,
+"holder": "R",
+"counties": [
+"LEHIGH"
+],
+"single_county": true
+},
+{
+"seat": "H189",
+"leg": 29.1,
+"pres24": 8.1,
+"gov22": 18.4,
+"est_gov26": 31.9,
+"split": -2.8,
+"leg_vs_pres": 21.0,
+"forecast": 24.7,
+"holder": "D",
+"counties": [
+"MONROE",
+"PIKE"
+],
+"single_county": false
+},
+{
+"seat": "H192",
+"leg": 92.0,
+"pres24": 86.3,
+"gov22": 93.4,
+"est_gov26": 106.3,
+"split": -14.3,
+"leg_vs_pres": 5.7,
+"forecast": 77.7,
+"holder": "D",
+"counties": [
+"PHILADELPHIA"
+],
+"single_county": true
+},
+{
+"seat": "H193",
+"leg": -27.3,
+"pres24": -38.1,
+"gov22": -22.8,
+"est_gov26": -13.3,
+"split": -14.0,
+"leg_vs_pres": 10.7,
+"forecast": -31.4,
+"holder": "R",
+"counties": [
+"ADAMS",
+"CUMBERLAND"
+],
+"single_county": false
+},
+{
+"seat": "H196",
+"leg": -19.1,
+"pres24": -33.8,
+"gov22": -16.0,
+"est_gov26": -9.8,
+"split": -9.3,
+"leg_vs_pres": 14.7,
+"forecast": -27.1,
+"holder": "R",
+"counties": [
+"YORK"
+],
+"single_county": true
+},
+{
+"seat": "H199",
+"leg": -5.5,
+"pres24": -15.6,
+"gov22": -1.1,
+"est_gov26": 8.8,
+"split": -14.3,
+"leg_vs_pres": 10.1,
+"forecast": -9.2,
+"holder": "R",
+"counties": [
+"CUMBERLAND"
+],
+"single_county": true
+}
+]

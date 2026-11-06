@@ -1,0 +1,14 @@
+/Users/alain_xiongcalmes/Desktop/pa-2026-postmortem/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+ok gov_2026 1 contests 67 rows 2026 General Election U
+ok ushouse_2026 17 contests 84 rows 2026 General Election U
+ok senate_2024 25 contests 59 rows 2024 Presidential Election O
+ok house_2024 203 contests 253 rows 2024 Presidential Election O
+ok senate_2022 25 contests 55 rows 2022 General Election O
+ok house_2022 203 contests 253 rows 2022 General Election O
+ok ussenate_2024 1 contests 67 rows 2024 Presidential Election O
+ok gov_2022 1 contests 67 rows 2022 General Election O
+ok pres_2024 1 contests 67 rows 2024 Presidential Election O
+{'Electionid': 117, 'ElectionType': 'G', 'ElectionName': '2026 General Election', 'ISActive': 1, 'ElectionYear': 2026, 'ElectionDate': '11/03/2026', 'ElectionStatus': 'U', 'ShowRegVotsBallot': 0, 'RegisteredVotes': 8993303, 'BallotsCounted': 5000144}
+{'Electionid': 105, 'ElectionType': 'G', 'ElectionName': '2024 Presidential Election', 'ISActive': 0, 'ElectionYear': 2024, 'ElectionDate': '11/05/2024', 'ElectionStatus': 'O', 'ShowRegVotsBallot': 0, 'RegisteredVotes': 9175184, 'BallotsCounted': 7085692}
+{'Electionid': 94, 'ElectionType': 'G', 'ElectionName': '2022 General Election', 'ISActive': 0, 'ElectionYear': 2022, 'ElectionDate': '11/08/2022', 'ElectionStatus': 'O', 'ShowRegVotsBallot': 0, 'RegisteredVotes': 8873365, 'BallotsCounted': 0}

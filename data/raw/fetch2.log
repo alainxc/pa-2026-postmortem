@@ -1,0 +1,7 @@
+/Users/alain_xiongcalmes/Desktop/pa-2026-postmortem/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+ok senate_2026 25 55 2026-11-06T00:14:18+00:00 2026-11-05 19:14:19.140 8,931 Out of 9,065 Districts (98.52%)  - IN PERSON BALLOT REPORTING ONLY
+ok house_2026 203 254 2026-11-06T00:14:23+00:00 2026-11-05 19:14:24.290 8,931 Out of 9,065 Districts (98.52%)  - IN PERSON BALLOT REPORTING ONLY
+ok ushouse_2024 17 84 2026-11-06T00:14:41+00:00 2026-11-05 19:14:41.830 8,284 Out of 8,950 Districts (92.56%)  - IN PERSON BALLOT REPORTING ONLY
+ok ushouse_2022 17 84 2026-11-06T00:14:43+00:00 2026-11-05 19:14:44.357 5,700 Out of 9,146 Districts (62.32%)  - IN PERSON BALLOT REPORTING ONLY
+ok ussenate_2022 1 67 2026-11-06T00:14:46+00:00 2026-11-05 19:14:46.843 5,700 Out of 9,146 Districts (62.32%)  - IN PERSON BALLOT REPORTING ONLY
