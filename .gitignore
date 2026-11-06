@@ -1,4 +1,6 @@
 .venv/
 __pycache__/
-data/raw/census/*.zip
+*.zip
 .DS_Store
+data/census/fetch*.log
+data/raw/fetch*.log
